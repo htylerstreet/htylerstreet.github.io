@@ -20,20 +20,6 @@ h1, h3, p{
     border-color: white;
 }
 
-.buttonDiv1 {
-    position: absolute;
-    left:50%;
-    top:40%;
-    transform: translate(-40%, -50%);
-}
-
-.buttonDiv2 {
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%, -50%);
-}
-
 .button1{
     background-colour: #E0081;
     border: none;
