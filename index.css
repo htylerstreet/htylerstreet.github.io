@@ -30,6 +30,7 @@ h1, h3, p{
     border-radius: 12px;
     width: 250px;
     transition-duration: 0.4s;
+    margin: 20px;
 }
 
 .button2{
