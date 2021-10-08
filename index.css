@@ -6,6 +6,12 @@ body{
     margin: auto;
 }
 
+.header{
+    background: white;
+    padding: 60px;
+    text-align: center;
+}    
+
 h1, h2, h3, p{
     color:rgb(17, 17, 17);
     font-family: 'Nunito', sans-serif;
