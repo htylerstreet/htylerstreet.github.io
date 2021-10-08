@@ -26,13 +26,20 @@ h1, h2, h3, p{
     padding: 15px 32px;
     color: white;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
     border-radius: 12px;
     width: 250px;
-    transition-duration: 0.4s;
     margin: 20px;
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: background-color 1s ease;
 }
+
+.button1:hover{
+    background-color: #BFDFFF;
+}    
 
 .button2{
     background-color: #003CFF;
@@ -40,20 +47,17 @@ h1, h2, h3, p{
     padding: 15px 32px;
     color: white;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
     border-radius: 12px;
     width: 250px;
-    transition-duration: 0.4s;
     margin: 20px;
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: background-color 1s ease;
 }
 
-.button1:hover{
-    background-color: #002394;
-    color: white;
-}    
-
 .button2:hover{
-    background-color: #003CFF;
-    color: white;
+    background-color: #BFDFFF;
 } 
