@@ -6,6 +6,15 @@ body{
     margin: auto;
 }
 
+.heading{
+    border-width: 0px;
+    text-align: left;
+    position: absolute;
+    left:50%;
+    top:5%;
+    font-family: 'Nunito', sans-serif;
+}
+
 h1, h2, h3, p{
     color:rgb(17, 17, 17);
     font-family: 'Nunito', sans-serif;
