@@ -44,6 +44,7 @@ h1, h2, h3, p{
     border-radius: 12px;
     width: 250px;
     transition-duration: 0.4s;
+    margin: 20px;
     font-family: 'Nunito', sans-serif;
 }
 
