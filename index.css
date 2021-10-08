@@ -2,7 +2,7 @@
 
 body{
     background-color: #BFDFFF;
-    max-width: 450px;
+    max-width: 550px;
     margin: auto;
 }
 
@@ -22,17 +22,34 @@ h1, h3, p{
 
 .button1{
     background-color: #002394;
+    border: none;
+    padding: 15px 32px;
     color: white;
-    text-align: centre;
+    text-align: center;
     font-size: 16px;
     border-radius: 12px;
+    width: 250px;
+    transition-duration: 0.4s;
 }
 
 .button2{
     background-color: #003CFF;
+    border: none;
+    padding: 15px 32px;
     color: white;
-    text-align: centre;
+    text-align: center;
     font-size: 16px;
     border-radius: 12px;
+    width: 250px;
+    transition-duration: 0.4s;
 }
 
+.button1:hover{
+    background-color: #002394;
+    color: white;
+}    
+
+.button2:hover{
+    background-color: #003CFF;
+    color: white;
+} 
