@@ -11,12 +11,7 @@ body{
     width: 100vw;
     padding: 40px;
     text-align: center;
-}    
-
-.headercontent{
-    margin: auto;
-    width: 960px;
-}    
+}       
 
 h1, h2, h3, p{
     color:rgb(17, 17, 17);
