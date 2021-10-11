@@ -9,7 +9,7 @@ body{
 .header{
     background: white;
     width: 100vw;
-    padding: 0;
+    padding: 1px;
     text-align: center;
 }       
 
