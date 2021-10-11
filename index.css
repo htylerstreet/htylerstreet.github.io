@@ -3,13 +3,13 @@
 body{
     background-color: #BFDFFF;
     max-width: 650px;
-    margin: auto;
+    margin: 0;
 }
 
 .header{
     background: white;
     width: 100vw;
-    padding: 40px;
+    padding: 0;
     text-align: center;
 }       
 
