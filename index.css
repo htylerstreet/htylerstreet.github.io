@@ -18,6 +18,22 @@ h1, h2, h3, p{
     font-family: 'Nunito', sans-serif;
 }
 
+.week1a{
+    width: 50%;
+    float: left;
+}
+
+.week1b{
+    width: 50%;
+    float: right;
+}
+
+.week1c{
+    width: 50%;
+    float: left;
+}    
+    
+
 .chart{
     background-color: white;
     width:450px;
