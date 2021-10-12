@@ -2,7 +2,7 @@
 
 body{
     background-color: #BFDFFF;
-    max-width: 650px;
+    max-width: 500px;
     margin: 0;
 }
 
@@ -20,11 +20,11 @@ h1, h2, h3, p{
 
 .chart{
     background-color: white;
-    width:330px;
+    width:450px;
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
-    border-color: white;
+    border-color: #002394;
 }
 
 .button1{
