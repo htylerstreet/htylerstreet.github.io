@@ -3,7 +3,7 @@
     "description": "A simple bar chart with embedded data.",
     "title": {
         "text": "New Covid Cases in Bristol",
-        "subtitle":"From 23rd September to 2nd October",
+        "subtitle":"From 23rd September to 2nd October 2021",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "anchor": "start",
