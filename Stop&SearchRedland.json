@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+      "description": "Police stop and search chart",
+  
+      "title": {
+       "text": "Stop and searches in the Redland area in Bristol",
+       "anchor": "start",
+       "color": "black",
+       "subtitle":"By reason for the stop and search. Source: Police API.",
+       "subtitleFontStyle":"italic",
+       "subtitleFontSize":10,
+       "subtitleColor":"black"
+    },
+   
+    "data": {"url": "https://data.police.uk/api/stops-street?lat=51.468292876639566&lng=-2.60669347883125"},
+  
+    "transform": [
+      {"calculate":"1", "as":"crime"}
+    ],
+  
+    "width":300,
+    "height":300,
+      
+    "mark": {
+      "type": "arc", 
+      "innerRadius": 5},
+         
+    "encoding": {
+      
+      "theta": {
+        "aggregate": "sum",
+        "field": "crime", 
+        "type": "quantitative"},
+      
+      "color": {
+        "field": "object_of_search", 
+        "type": "nominal",
+        "scale":{"scheme":"yellowgreenblue"},
+        "legend":{
+          "title":null
+        }
+      }
+    }
+  }
