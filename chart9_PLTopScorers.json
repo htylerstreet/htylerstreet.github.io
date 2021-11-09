@@ -1,0 +1,53 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+        "title": {
+        "text": "Top scorers in the Premier League 20/21",
+        "subtitle":"Comparing their total goals to how many penalties they scored. Data source: Sports Data API",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"
+      },
+  
+    "data": {"url": "https://app.sportdataapi.com/api/v1/soccer/topscorers?apikey=f6a8f5f0-4146-11ec-b932-05e9ea22447a&season_id=352",
+    "format":{
+      "type": "json",
+      "property": "data"
+    }
+    },
+
+           "transform":[
+          
+          {"filter": {
+            "field": "player.player_name", 
+            "oneOf": ["Harry Edward Kane", "Mohamed Salah Hamed Mahrous Ghaly", "Bruno Miguel Borges Fernandes", "Heung-min Son", "Jamie Richard Vardy", "Daniel William John Ings", "James Ward-Prowse", "Patrick Bamford", "Alexandre Lacazette", "Ilkay Gundogan"]}
+            }
+    
+    
+        ],
+
+  "height": 250,
+  "width": 250,
+  
+    "mark": "circle",
+    
+    "encoding": {
+  
+      "x": {
+        "field": "penalties", 
+        "type": "quantitative",
+        "title": "Penalties scored"},
+  
+      "y": {
+        "field": "goals.overall", 
+        "type": "quantitative",
+        "title": "Total number of goals scored"},
+  
+       "color":{
+         "field": "player.player_name",
+         "title": "Player",
+         "scale":{"scheme":"turbo"}
+       } 
+    }
+  }
