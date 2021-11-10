@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Average amount saved on prescriptions outside the US ",
+      "subtitle": "As a percentage of the price in the US. Source: IHS Market POLI",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+        "layer": [
+        
+        {"data": {"url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/prescription_prices2.csv"},
+        "mark": {"type":"bar", "color":"lightgrey"}
+        },
+  
+        {"data": {"url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/prescription_prices.csv"},
+        "mark": {"type":"bar", "color":"skyblue"}
+        }
+        ],
+  
+    "height": 300,
+    "width": 300,
+    "mark": {"type": "bar", "point": false, "color": "skyblue"},
+    "encoding": {
+      "x": {
+        "field": "0",
+        "type": "nominal",
+        "title": null,
+        "axis": {"grid": false}
+      },
+      "y": {
+        "field": "1",
+        "type": "quantitative",
+        "title": "Average percent saved",
+        "axis": {"grid": false}
+      }
+    }
+  }
