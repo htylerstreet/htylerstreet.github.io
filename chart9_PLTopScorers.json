@@ -3,7 +3,7 @@
 
         "title": {
         "text": "Top scorers in the Premier League 20/21",
-        "subtitle":"Comparing their total goals to how many penalties they scored. Data source: Sports Data API",
+        "subtitle":"Comparing their total goals to how many penalties they scored. Data source: Sport Data API",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "anchor": "start",
