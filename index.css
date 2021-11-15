@@ -14,10 +14,20 @@ body{
     text-align: center;
 }       
 
-h1, h2, h3, p{
+p{
     color:rgb(17, 17, 17);
     font-family: 'Nunito', sans-serif;
 } 
+
+h2{
+    color:rgb(68, 132, 206);
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    color:rgb(241, 159, 77);
+    font-family: 'Nunito', sans-serif;
+}
     
 
 .chart{
