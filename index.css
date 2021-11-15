@@ -1,13 +1,13 @@
 /* This is my first proper css file */
 
 body{
-    background-color: #C3C3C3;
+    background-color: #C0C0C0;
     max-width: 500px;
     margin: auto;
 }
 
 .header{
-    background: #C3C3C3;
+    background: #C0C0C0;
     width: 100%;
     max-width: 500px;
     padding: 1px;
@@ -26,7 +26,7 @@ h1, h2, h3, p{
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #0AFFFF;
+    border-color: #3399FF;
     margin: 0px 0px 10px 50px;
 }
 
@@ -36,12 +36,12 @@ h1, h2, h3, p{
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #808080;
+    border-color: #666666;
     margin: 10px 0px 10px 0px;
   }
 
 .button1{
-    background-color: #002394;
+    background-color: #3399FF;
     border: none;
     padding: 15px 32px;
     color: white;
@@ -58,11 +58,11 @@ h1, h2, h3, p{
 }
 
 .button1:hover{
-    background-color: #BFDFFF;
+    background-color: #C0C0C0;
 }    
 
 .button2{
-    background-color: #003CFF;
+    background-color: #666666;
     border: none;
     padding: 15px 32px;
     color: white;
@@ -79,5 +79,5 @@ h1, h2, h3, p{
 }
 
 .button2:hover{
-    background-color: #BFDFFF;
+    background-color: #C0C0C0;
 } 
