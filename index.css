@@ -43,7 +43,7 @@ h1{
 .grid {
     width: 550px;
     background-color: white;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-radius: 5px;
     border-color: #F19F4D;
@@ -51,7 +51,7 @@ h1{
   }
 
 .button1{
-    background-color: #4484CE;
+    background-color: #D9D9D9;
     border: none;
     padding: 15px 32px;
     color: #F19F4D;
@@ -71,11 +71,12 @@ h1{
 }
 
 .button1:hover{
-    background-color: #D9D9D9;
+    background-color: #4484CE;
+    border-color: #4484CE
 }    
 
 .button2{
-    background-color: #F19F4D;
+    background-color: #D9D9D9;
     border: none;
     padding: 15px 32px;
     color: #4484CE;
@@ -95,5 +96,6 @@ h1{
 }
 
 .button2:hover{
-    background-color: #D9D9D9;
+    background-color: #F19F4D;
+    border-color: #F19F4D;
 } 
