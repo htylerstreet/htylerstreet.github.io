@@ -36,6 +36,7 @@ h1, h2, h3, p{
     border-style: solid;
     border-radius: 5px;
     border-color: #002394;
+    margin: 40px;
   }
 
 .button1{
