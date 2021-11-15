@@ -3,6 +3,7 @@
 body{
     background-color: #BFDFFF;
     max-width: 500px;
+    margin: auto;
 }
 
 .header{
@@ -28,15 +29,8 @@ h1, h2, h3, p{
     border-color: #002394;
 }
 
-.container {
-    display: flex;
-    width: 500px;
-    height: 500px;
-  }
-
-.grid1,
-.grid2 {
-    width: 50%;
+.grid {
+    width: 100%;
     background-color: white;
     border-width: 2px;
     border-style: solid;
