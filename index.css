@@ -71,7 +71,7 @@ h1{
     border-color: #F19F4D;
     border-radius: 12px;
     width: 250px;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
     transition: background-color 1s ease;
@@ -96,7 +96,7 @@ h1{
     border-color: #4484CE;
     border-radius: 12px;
     width: 250px;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
     transition: background-color 1s ease;
