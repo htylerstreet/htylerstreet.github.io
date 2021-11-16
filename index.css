@@ -58,16 +58,9 @@ h1{
   }
 
 .container {
-    background: linear-gradient(
-        to right,
-        #D9D9D9 0%,
-        #D9D9D9 50%,
-        #F9CF00 50%,
-        #F9CF00 100%
-        );
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: transparent;
+    display: inline-grid;
+    grid-template-columns: auto auto;
 }    
 
 .button1{
