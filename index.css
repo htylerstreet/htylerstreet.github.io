@@ -14,7 +14,7 @@ body{
 }
 
 .header{
-    background: white;
+    background: transparent;
     width: 100%;
     max-width: 960px;
     padding: 1px;
@@ -55,13 +55,7 @@ h1{
     border-radius: 5px;
     border-color: #F19F4D;
     margin: 10px 0px 10px 0px;
-  }
-
-.container {
-    background-color: transparent;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-}    
+  }    
 
 .button1{
     background-color: #D9D9D9;
