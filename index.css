@@ -14,7 +14,13 @@ body{
 }
 
 .header{
-    background: white;
+    background: linear-gradient(
+        to right,
+        #F9CF00 0%,
+        #F9CF00 50%,
+        #D9D9D9 50%,
+        #D9D9D9 100%
+        );
     width: 100%;
     max-width: 550px;
     padding: 1px;
