@@ -9,7 +9,7 @@ body{
         #F9CF00 50%,
         #F9CF00 100%
         );
-    max-width: 500px;
+    max-width: fit-content;
     margin: auto;
 }
 
