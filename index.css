@@ -58,101 +58,51 @@ h1{
   }    
 
 .button1{
-    background-color: #D9D9D9;
+    background-color: white;
     border: none;
-    padding: 15px 32px;
+    padding: 10px 25px;
     color: #F19F4D;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     border-width: 2px;
     border-style: solid;
     border-color: #F19F4D;
     border-radius: 12px;
-    width: 250px;
-    margin: 20px 20px 20px 0px;
+    width: 150px;
+    margin: 10px;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
     transition: background-color 1s ease;
 }
 
 .button1:hover{
-    background-color: white;
-    border-color: white;
-}    
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+}
 
 .button2{
-    background-color: #D9D9D9;
+    background-color: white;
     border: none;
-    padding: 15px 32px;
+    padding: 10px 25px;
     color: #4484CE;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     border-width: 2px;
     border-style: solid;
     border-color: #4484CE;
     border-radius: 12px;
-    width: 250px;
-    margin: 20px 20px 20px 0px;
+    width: 150px;
+    margin: 10px;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
     transition: background-color 1s ease;
 }
 
 .button2:hover{
-    background-color: white;
-    border-color: white;
-} 
-
-.button3{
     background-color: #D9D9D9;
-    border: none;
-    padding: 10px 25px;
-    color: #F19F4D;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #F19F4D;
-    border-radius: 12px;
-    width: 150px;
-    margin: 10px;
-    font-family: 'Nunito', sans-serif;
-    cursor: pointer;
-    transition: background-color 1s ease;
-}
-
-.button3:hover{
-    background-color: white;
-    border-color: white;
-}
-
-.button4{
-    background-color: #D9D9D9;
-    border: none;
-    padding: 10px 25px;
-    color: #4484CE;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #4484CE;
-    border-radius: 12px;
-    width: 150px;
-    margin: 10px;
-    font-family: 'Nunito', sans-serif;
-    cursor: pointer;
-    transition: background-color 1s ease;
-}
-
-.button4:hover{
-    background-color: white;
-    border-color: white;
+    border-color: #D9D9D9;
 } 
