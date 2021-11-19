@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Gender pension gap in the UK",
+    "subtitle": "Difference in female and male pension pots. Source: PensionBee",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+"data": {"url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/gender_pension_gap.csv"},
+
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "bar", "point": false, "color": "skyblue"},
+  "encoding": {
+    "x": {
+      "field": "region",
+      "type": "nominal",
+      "title": null,
+      "sort": ["Average", "East Midlands", "Greater London", "North East", "North West", "Northern Ireland", "Scotland", "South East", "South West", "Wales", "West Midlands"],
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "gender pension gap",
+      "type": "quantitative",
+      "title": "Percentage of the male pension pot",
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "region",
+      "type": "nominal",
+      "sort": ["Average", "East Midlands", "Greater London", "North East", "North West", "Northern Ireland", "Scotland", "South East", "South West", "Wales", "West Midlands"],
+      "scale": {"range": ["orange", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue"]},
+      "legend": null
+    }
+  }
+}
