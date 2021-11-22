@@ -14,14 +14,14 @@
   "width": 300,
   "mark": {"type": "bar", "point": false, "color": "skyblue"},
   "encoding": {
-    "x": {
+    "y": {
       "field": "region",
       "type": "nominal",
       "title": null,
       "sort": ["Average", "East Midlands", "Greater London", "North East", "North West", "Northern Ireland", "Scotland", "South East", "South West", "Wales", "West Midlands"],
       "axis": {"grid": false}
     },
-    "y": {
+    "x": {
       "field": "gender pension gap",
       "type": "quantitative",
       "title": "Percentage of the male pension pot",
