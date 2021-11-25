@@ -20,7 +20,8 @@
   
     "mark": {
       "type": "line",
-      "point": true
+      "point": true,
+      "color": "skyblue"
     },
     "encoding": {
       "x": {"field": "date", "type": "nominal", "title": null},
