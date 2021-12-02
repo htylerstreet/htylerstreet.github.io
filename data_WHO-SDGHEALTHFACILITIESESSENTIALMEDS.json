@@ -1,0 +1,412 @@
+{
+    "dimension": [
+        {
+            "label": "GHO",
+            "display": "Indicator"
+        },
+        {
+            "label": "PUBLISHSTATE",
+            "display": "PUBLISH STATES"
+        },
+        {
+            "label": "YEAR",
+            "display": "Year"
+        },
+        {
+            "label": "REGION",
+            "display": "WHO region"
+        },
+        {
+            "label": "COUNTRY",
+            "display": "Country"
+        }
+    ],
+    "fact": [
+        {
+            "dim": {
+                "COUNTRY": "Burundi",
+                "YEAR": "2016",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "PUBLISHSTATE": "Published",
+                "REGION": "Africa"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "REGION": "Africa",
+                "COUNTRY": "Burundi",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2013"
+            },
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "REGION": "Africa",
+                "COUNTRY": "Burkina Faso",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2016"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2016",
+                "REGION": "Americas",
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Bolivia (Plurinational State of)"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "23.1"
+        },
+        {
+            "dim": {
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2016",
+                "REGION": "Americas",
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Chile"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "36.4"
+        },
+        {
+            "dim": {
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2016",
+                "COUNTRY": "Congo",
+                "REGION": "Africa",
+                "PUBLISHSTATE": "Published"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Colombia",
+                "YEAR": "2016",
+                "REGION": "Americas",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "8.3"
+        },
+        {
+            "dim": {
+                "YEAR": "2008",
+                "REGION": "Americas",
+                "COUNTRY": "Colombia",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Value": "88.8"
+        },
+        {
+            "dim": {
+                "REGION": "Americas",
+                "YEAR": "2016",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "COUNTRY": "Ecuador",
+                "PUBLISHSTATE": "Published"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "50"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Ghana",
+                "REGION": "Africa",
+                "YEAR": "2016",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "12.5"
+        },
+        {
+            "dim": {
+                "YEAR": "2016",
+                "COUNTRY": "Guinea",
+                "REGION": "Africa",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "12.5"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Haiti",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "REGION": "Americas",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011"
+            },
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Indonesia",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "REGION": "South-East Asia",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2010"
+            },
+            "Value": "14.6"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Indonesia",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2004",
+                "REGION": "South-East Asia"
+            },
+            "Value": "36.9"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Kyrgyzstan",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "REGION": "Europe",
+                "YEAR": "2016"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2015",
+                "REGION": "Europe",
+                "COUNTRY": "Kyrgyzstan"
+            },
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Kyrgyzstan",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "REGION": "Europe",
+                "YEAR": "2010"
+            },
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2005",
+                "COUNTRY": "Kyrgyzstan",
+                "REGION": "Europe"
+            },
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2013",
+                "REGION": "Western Pacific",
+                "COUNTRY": "Lao People's Democratic Republic",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Value": "25.3"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "REGION": "Eastern Mediterranean",
+                "YEAR": "2013",
+                "COUNTRY": "Lebanon"
+            },
+            "Value": "52.5"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Eastern Mediterranean",
+                "YEAR": "2004",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "COUNTRY": "Lebanon"
+            },
+            "Value": "50"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2019",
+                "COUNTRY": "Republic of Moldova",
+                "REGION": "Europe"
+            },
+            "Value": "21.7"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Africa",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "COUNTRY": "Mali",
+                "YEAR": "2016"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Western Pacific",
+                "COUNTRY": "Mongolia",
+                "YEAR": "2012",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Value": "26.7"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Western Pacific",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2004",
+                "COUNTRY": "Mongolia"
+            },
+            "Value": "9.1"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2008",
+                "COUNTRY": "Mauritius",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "REGION": "Africa"
+            },
+            "Value": "26.2"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "COUNTRY": "Peru",
+                "YEAR": "2016",
+                "REGION": "Americas"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "69.2"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Sudan",
+                "REGION": "Eastern Mediterranean",
+                "YEAR": "2013",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Value": "41"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Eastern Mediterranean",
+                "YEAR": "2012",
+                "COUNTRY": "Sudan",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Value": "34.5"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Africa",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2016",
+                "COUNTRY": "Senegal"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "7.7"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Europe",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2013",
+                "COUNTRY": "Tajikistan"
+            },
+            "Value": "15"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2004",
+                "COUNTRY": "Tajikistan",
+                "REGION": "Europe",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis"
+            },
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Trinidad and Tobago",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "REGION": "Americas",
+                "YEAR": "2016"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2016",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "COUNTRY": "United Republic of Tanzania",
+                "REGION": "Africa"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "0"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Africa",
+                "COUNTRY": "United Republic of Tanzania",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2012"
+            },
+            "Value": "19"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "COUNTRY": "United Republic of Tanzania",
+                "YEAR": "2004",
+                "REGION": "Africa"
+            },
+            "Value": "27.9"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Africa",
+                "COUNTRY": "Zambia",
+                "GHO": "Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis",
+                "YEAR": "2016"
+            },
+            "Comments": "* data from only capital city ",
+            "Value": "16.7"
+        }
+    ]
+}
