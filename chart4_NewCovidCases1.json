@@ -49,7 +49,7 @@
       "color": {
         "field": "areaName",
         "type": "nominal",
-        "scale": {"scheme": "set2"},
+        "scale": {"scheme": "category20"},
         "title": "",
         "legend": {
           "orient": "top-left", 
