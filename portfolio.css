@@ -12,6 +12,11 @@ body{
     margin: auto;
 }     
 
+.container{
+    background-color: transparent;
+    text-align: center;
+} 
+
 p{
     color:rgb(17, 17, 17);
     font-family: 'Nunito', sans-serif;
