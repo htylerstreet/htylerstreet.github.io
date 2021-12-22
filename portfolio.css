@@ -6,20 +6,12 @@ body{
         to right,
         #D9D9D9 0%,
         #D9D9D9 50%,
-        #F9CF00 50%,
-        #F9CF00 100%
+        #FFFFFF 50%,
+        #FFFFFF 100%
         );
     max-width: 500px;
     margin: auto;
-}
-
-.header{
-    background: transparent;
-    width: 100%;
-    max-width: 960px;
-    padding: 1px;
-    text-align: center;
-}      
+}     
 
 p{
     color:rgb(17, 17, 17);
@@ -32,9 +24,10 @@ h2{
 }
 
 h1{
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
+    color: black;
+    font-family: 'Train One', cursive;
+    font-size: 50px;
+}  
     
 
 .chart{
@@ -59,7 +52,7 @@ h1{
 
 .grid {
     width: 550px;
-    background-color: white;
+    background-color: #FFEE92;
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
@@ -89,8 +82,8 @@ h1{
 }
 
 .button1:hover{
-    background-color: #D9D9D9;
-    border-color: #D9D9D9;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .button2{
@@ -114,6 +107,6 @@ h1{
 }
 
 .button2:hover{
-    background-color: #D9D9D9;
-    border-color: #D9D9D9;
+    background-color: transparent;
+    border-color: transparent;
 } 
