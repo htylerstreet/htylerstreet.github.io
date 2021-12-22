@@ -1,7 +1,6 @@
 /* This is my first proper css file */
 
 body{
-    height: 100vh;
     background: linear-gradient(
         to right,
         #D9D9D9 0%,
@@ -13,13 +12,10 @@ body{
     margin: auto;
 }
 
-.header{
-    background: transparent;
-    width: 100%;
-    max-width: 960px;
-    padding: 1px;
+.container{
+    background-color: transparent;
     text-align: center;
-}      
+}     
 
 p{
     color:rgb(17, 17, 17);
