@@ -85,8 +85,8 @@ h1{
 }
 
 .button1:hover{
-    background-color: #D9D9D9;
-    border-color: #D9D9D9;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .button2{
@@ -110,6 +110,6 @@ h1{
 }
 
 .button2:hover{
-    background-color: #D9D9D9;
-    border-color: #D9D9D9;
+    background-color: transparent;
+    border-color: transparent;
 } 
