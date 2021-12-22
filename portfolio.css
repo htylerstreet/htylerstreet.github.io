@@ -23,8 +23,8 @@ p{
 } 
 
 h2{
-    color:rgb(68, 132, 206);
-    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-family: 'Train One', cursive;
 }
 
 h1{
@@ -33,6 +33,16 @@ h1{
     font-size: 50px;
 }  
     
+.homework{
+    width: 550px;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #F19F4D;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
+}    
 
 .chart{
     background-color: white;
