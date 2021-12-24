@@ -1,0 +1,59 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "description": "This chart shows new covid cases and deaths in the US using data from the Covid Tracking Project API. Data was only collected from the start of the pandemic up until March 2021.",
+
+    "title": {
+        "text": "New Covid Cases vs Deaths in the US",
+        "subtitle":"Since the beginning of the pandemic. Data Source: The COVID Tracking Project",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"
+      },
+      
+       "data": {
+        "url": "https://api.covidtracking.com/v2/us/daily.json",
+        "format": {"type": "json", "property": "data"}
+      },
+     
+      
+      "height": 300,
+      "width": 300,
+
+        "encoding": {
+          "x": {
+          "field": "date",
+          "type": "temporal",
+         "scale": {"domain":["2020-01-14", "2021-03-07"]},
+          "title": null,
+          "axis": {"grid": false}
+        }
+      },
+
+      "layer": [
+         {"mark": {"type": "area", "point": false, "color": "orange"},
+          "encoding": {
+              "y":{
+                  "field":"outcomes.death.total.value",
+                  "type": "quantitative",
+                 "scale": {"domain":["0", "1000000"]},
+                  "title": "New Deaths",
+          "axis": {"titleColor":"orange"}
+              }
+          }
+       },
+              {
+      "mark": {"type": "line", "point": false, "color": "darkblue"},
+      "encoding": {
+          "y": {
+          "field": "cases.total.value",
+          "type": "quantitative",
+          "title": "New Cases",
+          "axis": {"titleColor":"darkblue"}
+        }
+       }
+       }
+      ],
+    "resolve": {"scale": {"y": "independent"}}
+}
