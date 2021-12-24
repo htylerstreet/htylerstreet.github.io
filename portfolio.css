@@ -32,6 +32,11 @@ h1{
     font-family: 'Train One', cursive;
     font-size: 50px;
 }  
+
+.title{
+    background-color: transparent;
+    text-align: center;
+}    
     
 .homework{
     width: 550px;
