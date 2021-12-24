@@ -5,8 +5,8 @@ body{
         to right,
         #D9D9D9 0%,
         #D9D9D9 50%,
-        #CCE5FF 50%,
-        #CCE5FF 100%
+        #FFB870 50%,
+        #FFB870 100%
         );
     max-width: 500px;
     margin: auto;
@@ -39,7 +39,7 @@ h1{
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #4484CE;
+    border-color: #F19F4D;
     padding: 0px 10px 0px 10px;
     margin: 10px 0px 10px 0px;
 }    
@@ -50,7 +50,7 @@ h1{
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #4484CE;
+    border-color: #F19F4D;
     margin: 0px 0px 20px 50px;
 }
 
@@ -60,7 +60,7 @@ h1{
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #4484CE;
+    border-color: #F19F4D;
     margin: 0px 0px 20px 50px;
 }
 
@@ -70,7 +70,7 @@ h1{
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #F19F4D;
+    border-color: #4484CE;
     padding: 0px 10px 0px 10px;
     margin: 10px 0px 10px 0px;
   }    
