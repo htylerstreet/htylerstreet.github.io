@@ -69,17 +69,17 @@ h1{
     background-color: white;
     border: none;
     padding: 10px 25px;
-    color: #F19F4D;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
     border-width: 2px;
     border-style: solid;
-    border-color: #F19F4D;
-    border-radius: 12px;
+    border-color: black;
+    border-radius: 5px;
     width: 150px;
-    margin: 10px;
+    margin: 10px 0px;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
     transition: background-color 1s ease;
@@ -94,17 +94,17 @@ h1{
     background-color: white;
     border: none;
     padding: 10px 25px;
-    color: #4484CE;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
     border-width: 2px;
     border-style: solid;
-    border-color: #4484CE;
-    border-radius: 12px;
+    border-color: black;
+    border-radius: 5px;
     width: 150px;
-    margin: 10px;
+    margin: 10px 0px;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
     transition: background-color 1s ease;
@@ -113,4 +113,4 @@ h1{
 .button2:hover{
     background-color: transparent;
     border-color: transparent;
-} 
+}
