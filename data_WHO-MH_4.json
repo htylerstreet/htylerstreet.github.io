@@ -1,0 +1,806 @@
+{
+    "dimension": [
+        {
+            "label": "GHO",
+            "display": "Indicator"
+        },
+        {
+            "label": "PUBLISHSTATE",
+            "display": "PUBLISH STATES"
+        },
+        {
+            "label": "YEAR",
+            "display": "Year"
+        },
+        {
+            "label": "REGION",
+            "display": "WHO region"
+        },
+        {
+            "label": "COUNTRY",
+            "display": "Country"
+        }
+    ],
+    "fact": [
+        {
+            "dim": {
+                "COUNTRY": "Armenia",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Europe",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "3.38"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "REGION": "Western Pacific",
+                "COUNTRY": "Australia"
+            },
+            "Value": "7.64"
+        },
+        {
+            "dim": {
+                "REGION": "Europe",
+                "YEAR": "2011",
+                "COUNTRY": "Azerbaijan",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "2.5"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Burundi",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Africa",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011"
+            },
+            "Value": "0.34"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Bangladesh",
+                "REGION": "South-East Asia",
+                "YEAR": "2011"
+            },
+            "Value": "0.44"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Bulgaria",
+                "REGION": "Europe",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011"
+            },
+            "Value": "1.4"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "REGION": "Americas",
+                "COUNTRY": "Brazil",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "2.38"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "REGION": "Americas",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Canada"
+            },
+            "Value": "7.2"
+        },
+        {
+            "dim": {
+                "REGION": "Americas",
+                "COUNTRY": "Chile",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "2.78"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Africa",
+                "COUNTRY": "Cameroon"
+            },
+            "Value": "0.26"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Costa Rica",
+                "YEAR": "2011",
+                "REGION": "Americas"
+            },
+            "Value": "2.91"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "REGION": "Europe",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Cyprus"
+            },
+            "Value": "4.82"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "COUNTRY": "Czechia",
+                "REGION": "Europe",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "2.91"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "Germany",
+                "PUBLISHSTATE": "Published",
+                "REGION": "Europe"
+            },
+            "Value": "11"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Dominica",
+                "REGION": "Americas",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "3.22"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Dominican Republic",
+                "REGION": "Americas",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011"
+            },
+            "Value": "0.61"
+        },
+        {
+            "dim": {
+                "YEAR": "2011",
+                "COUNTRY": "Algeria",
+                "REGION": "Africa",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "7.37"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Ecuador",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Americas",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "1.2"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Egypt",
+                "YEAR": "2011",
+                "REGION": "Eastern Mediterranean",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "2.29"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Eritrea",
+                "REGION": "Africa",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011"
+            },
+            "Value": "1.91"
+        },
+        {
+            "dim": {
+                "YEAR": "2011",
+                "REGION": "Europe",
+                "COUNTRY": "Spain",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "5"
+        },
+        {
+            "dim": {
+                "REGION": "Europe",
+                "COUNTRY": "Estonia",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "5.78"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "REGION": "Europe",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Finland"
+            },
+            "Value": "3.86"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Fiji",
+                "REGION": "Western Pacific",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "1.9"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "France",
+                "REGION": "Europe"
+            },
+            "Value": "12.91"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Gabon",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "REGION": "Africa"
+            },
+            "Value": "0.62"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "Georgia",
+                "REGION": "Europe",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "2.83"
+        },
+        {
+            "dim": {
+                "YEAR": "2011",
+                "COUNTRY": "Ghana",
+                "REGION": "Africa",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "2"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Greece",
+                "REGION": "Europe",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011"
+            },
+            "Value": "4.43"
+        },
+        {
+            "dim": {
+                "REGION": "Americas",
+                "COUNTRY": "Guatemala",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "1.46"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "COUNTRY": "Guyana",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Americas"
+            },
+            "Value": "1.35"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Honduras",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published",
+                "REGION": "Americas"
+            },
+            "Value": "1.61"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Haiti",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published",
+                "REGION": "Americas"
+            },
+            "Value": "0.61"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Hungary",
+                "REGION": "Europe",
+                "YEAR": "2011"
+            },
+            "Value": "5.1"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Iran (Islamic Republic of)",
+                "REGION": "Eastern Mediterranean",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011"
+            },
+            "Value": "3.6"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Europe",
+                "YEAR": "2011",
+                "COUNTRY": "Iceland",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "8.69"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Europe",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Italy"
+            },
+            "Value": "5"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Jamaica",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published",
+                "REGION": "Americas"
+            },
+            "Value": "6.04"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Japan",
+                "REGION": "Western Pacific",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011"
+            },
+            "Value": "4.94"
+        },
+        {
+            "dim": {
+                "REGION": "Europe",
+                "COUNTRY": "Kyrgyzstan",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "4"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Americas",
+                "COUNTRY": "Saint Kitts and Nevis",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011"
+            },
+            "Value": "1.09"
+        },
+        {
+            "dim": {
+                "REGION": "Eastern Mediterranean",
+                "COUNTRY": "Lebanon",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011"
+            },
+            "Value": "4.8"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "COUNTRY": "Saint Lucia",
+                "REGION": "Americas",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "4.13"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "Lesotho",
+                "REGION": "Africa"
+            },
+            "Value": "1.8"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "Latvia",
+                "REGION": "Europe"
+            },
+            "Value": "5.9"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Republic of Moldova",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published",
+                "REGION": "Europe"
+            },
+            "Value": "3.24"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Mexico",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Americas",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "0.65"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Marshall Islands",
+                "YEAR": "2011",
+                "REGION": "Western Pacific",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "0.4"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Europe",
+                "COUNTRY": "Malta",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "6.71"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Mongolia",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "REGION": "Western Pacific"
+            },
+            "Value": "2"
+        },
+        {
+            "dim": {
+                "YEAR": "2011",
+                "REGION": "Africa",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Mozambique"
+            },
+            "Value": "0.16"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "Malawi",
+                "REGION": "Africa"
+            },
+            "Value": "1"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "REGION": "Western Pacific",
+                "COUNTRY": "Malaysia"
+            },
+            "Value": "0.39"
+        },
+        {
+            "dim": {
+                "REGION": "Americas",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Nicaragua"
+            },
+            "Value": "1"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "COUNTRY": "Netherlands",
+                "REGION": "Europe",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "10.65"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Nepal",
+                "YEAR": "2011",
+                "REGION": "South-East Asia",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "0.7"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Nauru",
+                "REGION": "Western Pacific",
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011"
+            },
+            "Value": "0.69"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "New Zealand",
+                "REGION": "Western Pacific",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "10"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Peru",
+                "REGION": "Americas",
+                "YEAR": "2011"
+            },
+            "Value": "0.27"
+        },
+        {
+            "dim": {
+                "REGION": "Western Pacific",
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Palau",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011"
+            },
+            "Value": "0.82"
+        },
+        {
+            "dim": {
+                "YEAR": "2011",
+                "COUNTRY": "Papua New Guinea",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published",
+                "REGION": "Western Pacific"
+            },
+            "Value": "0.1"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Europe",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "Poland"
+            },
+            "Value": "5.08"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "YEAR": "2011",
+                "COUNTRY": "Portugal",
+                "REGION": "Europe",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "5.24"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Paraguay",
+                "REGION": "Americas",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "0.31"
+        },
+        {
+            "dim": {
+                "REGION": "Eastern Mediterranean",
+                "COUNTRY": "Saudi Arabia",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "3.89"
+        },
+        {
+            "dim": {
+                "COUNTRY": "Singapore",
+                "REGION": "Western Pacific",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "4.14"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Western Pacific",
+                "YEAR": "2011",
+                "COUNTRY": "Solomon Islands",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "1.3"
+        },
+        {
+            "dim": {
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "San Marino",
+                "REGION": "Europe",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "2.8"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Slovenia",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Europe",
+                "YEAR": "2011"
+            },
+            "Value": "8"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Europe",
+                "YEAR": "2011",
+                "COUNTRY": "Sweden"
+            },
+            "Value": "10"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Eastern Mediterranean",
+                "COUNTRY": "Syrian Arab Republic",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011"
+            },
+            "Value": "2"
+        },
+        {
+            "dim": {
+                "REGION": "South-East Asia",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "Thailand",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "4"
+        },
+        {
+            "dim": {
+                "REGION": "Europe",
+                "YEAR": "2011",
+                "COUNTRY": "Tajikistan",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "1.22"
+        },
+        {
+            "dim": {
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "COUNTRY": "Tunisia",
+                "REGION": "Eastern Mediterranean",
+                "PUBLISHSTATE": "Published"
+            },
+            "Value": "4.95"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Africa",
+                "YEAR": "2011",
+                "COUNTRY": "United Republic of Tanzania"
+            },
+            "Value": "2.4"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "COUNTRY": "Uzbekistan",
+                "YEAR": "2011",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "REGION": "Europe"
+            },
+            "Value": "2.32"
+        },
+        {
+            "dim": {
+                "REGION": "Americas",
+                "COUNTRY": "Saint Vincent and the Grenadines",
+                "YEAR": "2011",
+                "PUBLISHSTATE": "Published",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)"
+            },
+            "Value": "5.6"
+        },
+        {
+            "dim": {
+                "PUBLISHSTATE": "Published",
+                "REGION": "Africa",
+                "GHO": "Government expenditures on mental health as a percentage of total government expenditures on health (%)",
+                "YEAR": "2011",
+                "COUNTRY": "Zimbabwe"
+            },
+            "Value": "0.01"
+        }
+    ]
+}
