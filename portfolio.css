@@ -34,6 +34,7 @@ h1{
 }  
 
 .title{
+    width: 750px;
     background-color: transparent;
     text-align: center;
 }    
@@ -41,10 +42,11 @@ h1{
 .homework{
     width: 550px;
     background-color: transparent;
-    border-width: 4px;
+    text-align: center;
+    border-width: 3.5px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #9FC0DE;
+    border-color: transparent;
     padding: 0px 10px 0px 10px;
     margin: 10px 0px 10px 0px;
 }    
@@ -72,7 +74,7 @@ h1{
 .grid {
     width: 550px;
     background-color: white;
-    border-width: 4px;
+    border-width: 3.5px;
     border-style: solid;
     border-radius: 5px;
     border-color: #779ECC;
