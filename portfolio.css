@@ -37,6 +37,7 @@ h1{
     width: 550px;
     background-color: transparent;
     text-align: center;
+    margin: 10px 0px 0px 0px;
 }    
     
 .homework{
@@ -58,7 +59,6 @@ h1{
     border-style: solid;
     border-radius: 5px;
     border-color: #FFB347;
-    margin: 0px 0px 20px 50px;
 }
 
 .png{
@@ -68,7 +68,6 @@ h1{
     border-style: solid;
     border-radius: 5px;
     border-color: #FFB347;
-    margin: 0px 0px 20px 50px;
 }
 
 .grid {
