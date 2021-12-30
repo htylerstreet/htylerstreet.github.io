@@ -133,3 +133,11 @@ h1{
     background-color: transparent;
     border-color: transparent;
 } 
+
+.link{
+    color: #FF985A;
+}
+
+.link:hover{
+    color: #FFB347;
+}
