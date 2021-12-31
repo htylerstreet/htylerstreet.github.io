@@ -24,7 +24,7 @@
       "color": "skyblue"
     },
     "encoding": {
-      "x": {"field": "date", "type": "nominal", "title": null},
+      "x": {"field": "date", "type": "nominal", "title": null, "axis": {"labelAngle": 20}},
       "y": {"field": "New Cases", "type": "quantitative"},
       "color": {
           "field": "",
