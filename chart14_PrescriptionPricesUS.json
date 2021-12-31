@@ -28,7 +28,7 @@
         "field": "0",
         "type": "nominal",
         "title": null,
-        "axis": {"grid": false}
+        "axis": {"grid": false, "labelAngle": 20}
       },
       "y": {
         "field": "1",
