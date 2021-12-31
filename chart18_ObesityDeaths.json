@@ -58,7 +58,7 @@
       },
       "tooltip": [
         {"field": "country", "title": "Country"},
-        {"field": "obesity", "title": ""}
+        {"field": "obesity", "title": "Percentage of deaths"}
       ]
     }
     }
