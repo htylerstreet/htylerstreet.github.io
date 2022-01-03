@@ -22,15 +22,15 @@ p{
     font-family: 'Nunito', sans-serif;
 } 
 
-h2{
-    color:rgb(68, 132, 206);
-    font-family: 'Nunito', sans-serif;
-}
-
 h1{
     color: black;
     font-family: 'Train One', cursive;
     font-size: 50px;
+}
+
+h2{
+    color: black;
+    font-family: 'Major Mono Display', monospace;
 }
     
 
