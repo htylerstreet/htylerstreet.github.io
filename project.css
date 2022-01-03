@@ -20,7 +20,7 @@ body{
 p{
     color:rgb(17, 17, 17);
     font-family: 'Nunito', sans-serif;
-} 
+}
 
 h1{
     color: black;
@@ -32,12 +32,24 @@ h2{
     color: black;
     font-family: 'Major Mono Display', monospace;
 }
+
+h3{
+    color: black;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.title{
+    width: 1000px;
+    background-color: transparent;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
     
 .text{
     width: 800px;
     background-color: transparent;
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 100px 0px 100px;
 }   
 
 .aims{
@@ -46,9 +58,9 @@ h2{
     border-width: 1px;
     border-style: solid;
     border-radius: 5px;
-    border-color: white;
+    border-color: transparent;
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 100px 0px 100px;
 }
 
 .chart{
