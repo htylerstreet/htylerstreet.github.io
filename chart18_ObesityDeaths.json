@@ -1,32 +1,41 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
-    "description": "",
-
-    "title": {
-      "text": "Share of Deaths due to Obesity in Selected European Countries",
-      "subtitle":
-        "As a percentage of total deaths, from 1990 to 2017. Source: OurWorldInData",
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "start",
-      "color": "black"
-    },
-  
-        "data": {
-          "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/ShareOfDeathsObesity.csv"
-        },   
-  
-    "height": 300,
-    "width": 350,
-
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "title": {
+    "text": "Share of Deaths due to Obesity in Selected European Countries",
+    "subtitle": "As a percentage of total deaths, from 1990 to 2017. Source: OurWorldInData",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/ShareOfDeathsObesity.csv"
+  },
+  "height": 300,
+  "width": 350,
   "mark": {"type": "bar", "color": "skyblue"},
-  "transform": [{"filter": "datum.year==year"},
-  {"filter": {
-          "field": "country",
-          "oneOf": [
-            "United Kingdom", "Spain", "France", "Netherlands", "Portugal", "Italy", "Poland", "Albania", "Germany", "Belgium", "Austria", "Denmark"]}
+  "transform": [
+    {"filter": "datum.year==year"},
+    {
+      "filter": {
+        "field": "country",
+        "oneOf": [
+          "United Kingdom",
+          "Spain",
+          "France",
+          "Netherlands",
+          "Portugal",
+          "Italy",
+          "Poland",
+          "Albania",
+          "Germany",
+          "Belgium",
+          "Austria",
+          "Denmark"
+        ]
       }
+    }
   ],
   "params": [
     {
@@ -41,24 +50,23 @@
       }
     }
   ],
-
-    "encoding": {
-      "y": {
-        "field": "obesity",
-        "type": "quantitative",
-        "title": "Percentage of Deaths due to Obesity",
-        "axis": {"grid": false}
-      },
-      "x": {
-        "field": "country",
-        "type": "nominal",
-        "title": "",
-        "axis": {"grid": false, "labelAngle": 20},
-        "sort": "-y"
-      },
-      "tooltip": [
-        {"field": "country", "title": "Country"},
-        {"field": "obesity", "title": "Percentage of deaths"}
-      ]
-    }
-    }
+  "encoding": {
+    "x": {
+      "field": "obesity",
+      "type": "quantitative",
+      "title": "Percentage of Deaths due to Obesity",
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "country",
+      "type": "nominal",
+      "title": "",
+      "axis": {"grid": false, "labelAngle": 0},
+      "sort": "-x"
+    },
+    "tooltip": [
+      {"field": "country", "title": "Country"},
+      {"field": "obesity", "title": "Percentage of deaths"}
+    ]
+  }
+}
