@@ -33,17 +33,12 @@ h2{
     font-family: 'Major Mono Display', monospace;
 }
     
-
-.homework{
-    width: 550px;
+.text{
+    width: 800px;
     background-color: transparent;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #4484CE;
-    padding: 0px 10px 0px 10px;
-    margin: 10px 0px 10px 0px;
-}    
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}   
 
 .chart{
     background-color: white;
