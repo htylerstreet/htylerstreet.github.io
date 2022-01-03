@@ -65,12 +65,12 @@ h3{
 
 .chart{
     background-color: white;
-    width:450px;
+    width: 500px;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
     border-color: #4484CE;
-    margin: 0px 0px 20px 50px;
+    margin: 0px 250px 20px 250px;
 }
 
 .png{
