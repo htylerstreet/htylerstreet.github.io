@@ -8,8 +8,10 @@ body{
         #F2C894 50%,
         #F2C894 100%
         );
-    max-width: 500px;
+    max-width: auto;
     margin: auto;
+    text-align: center;
+    width: 100%;
 }     
 
 .container{
@@ -34,14 +36,14 @@ h1{
 }  
 
 .title{
-    width: 550px;
+    width: 100%;
     background-color: transparent;
     text-align: center;
     margin: 10px 0px 0px 0px;
 }    
     
 .homework{
-    width: 550px;
+    width: 100%;
     background-color: transparent;
     text-align: center;
     border-width: 3.5px;
