@@ -46,7 +46,7 @@
       "y": {
         "field": "obesity",
         "type": "quantitative",
-        "title": "Life Expectancy (years)",
+        "title": "Percentage of Deaths due to Obesity",
         "axis": {"grid": false}
       },
       "x": {
