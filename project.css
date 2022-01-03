@@ -42,11 +42,11 @@ h2{
 
 .aims{
     width: 800px;
-    background-color: white;
-    border-width: 2px;
+    background-color: transparent;
+    border-width: 1px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #4484CE;
+    border-color: white;
     text-align: center;
     margin: 10px 0px 0px 0px;
 }
