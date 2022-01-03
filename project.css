@@ -8,10 +8,8 @@ body{
         #CCE5FF 50%,
         #CCE5FF 100%
         );
-    max-width: auto;
+    max-width: 800px;
     margin: auto;
-    text-align: center;
-    width: 100%;
 }
 
 .container{
