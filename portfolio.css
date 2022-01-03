@@ -8,9 +8,8 @@ body{
         #F2C894 50%,
         #F2C894 100%
         );
-    max-width: auto;
+    max-width: 500px;
     margin: auto;
-    width: 100%;
 }     
 
 .container{
