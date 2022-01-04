@@ -63,7 +63,7 @@ h3{
     margin: 10px 100px 0px 100px;
 }
 
-.chart{
+.chart1{
     background-color: white;
     width: 750px;
     border-width: 2px;
@@ -73,14 +73,24 @@ h3{
     margin: 0px 125px 20px 125px;
 }
 
-.png{
+.chart2{
     background-color: white;
-    width:450px;
+    width: 650px;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
     border-color: #4484CE;
-    margin: 0px 0px 20px 50px;
+    margin: 0px 175px 20px 175px;
+}
+
+.png{
+    background-color: white;
+    width: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #4484CE;
+    margin: 0px 250px 20px 250px;
 }
 
 .grid {
