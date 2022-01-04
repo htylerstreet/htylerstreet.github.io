@@ -93,7 +93,29 @@ h3{
     margin: 0px 250px 20px 250px;
 }
 
-.grid {
+.grid1{
+    width: 800px;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #F19F4D;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
+  } 
+
+.grid2{
+    width: 700px;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #F19F4D;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
+  }
+
+.gridpng{
     width: 550px;
     background-color: white;
     border-width: 3px;
@@ -102,7 +124,7 @@ h3{
     border-color: #F19F4D;
     padding: 0px 10px 0px 10px;
     margin: 10px 0px 10px 0px;
-  }    
+  }
 
 .button1{
     background-color: white;
