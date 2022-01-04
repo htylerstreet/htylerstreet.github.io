@@ -93,39 +93,6 @@ h3{
     margin: 0px 250px 20px 250px;
 }
 
-.grid1{
-    width: 800px;
-    background-color: white;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #F19F4D;
-    padding: 10px 10px 0px 10px;
-    margin: 10px 100px 10px 100px;
-  } 
-
-.grid2{
-    width: 700px;
-    background-color: white;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #F19F4D;
-    padding: 10px 10px 0px 10px;
-    margin: 10px 150px 10px 150px;
-  }
-
-.gridpng{
-    width: 550px;
-    background-color: white;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #F19F4D;
-    padding: 10px 10px 0px 10px;
-    margin: 10px 225px 10px 225px;
-  }
-
 .button1{
     background-color: white;
     border: none;
@@ -174,4 +141,13 @@ h3{
 .button2:hover{
     background-color: transparent;
     border-color: transparent;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: transparent;
+    color: black;
+    width: 1000px;
+    border-top: 1px solid black;
 }
