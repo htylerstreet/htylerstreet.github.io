@@ -143,6 +143,29 @@ h3{
     border-color: transparent;
 }
 
+.smallbutton{
+    background-color: white;
+    border: none;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 75px;
+    margin: 10px 0px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.smallbutton:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+    
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
