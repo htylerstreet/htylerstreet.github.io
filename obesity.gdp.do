@@ -56,6 +56,8 @@ drop flagcodes
 drop flags
 
 rename value gdp
+rename men Men
+rename women Women
 
 export delimited obesity_gdp.csv, replace
 
