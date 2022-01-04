@@ -52,8 +52,9 @@
         "xOffset": {"datum": {"repeat": "layer"}},
         "tooltip":[
           {"field": "country", "type": "nominal", "title": "Country"},
-          {"field": "Men", "type": "quantitative", "format": ".2f"},
-          {"field": "Women", "type": "quantitative", "format": ".2f"},
+          {"field": "Men", "type": "quantitative", "title": "Men (%)", "format": ".2f"},
+          {"field": "Women", "type": "quantitative", "title": "Women (%)", "format": ".2f"},
+          {"field": "total", "type": "quantitative", "title": "Total (%)", "format": ".2f"},
           {"field": "deaths", "type": "quantitative", "title": "Percentage of deaths attributed to obesity", "format": ".2f"},
           {"field": "gdp", "type": "quantitative", "title": "GDP (Euros, in millions)", "format": ".2f"}
         ]
