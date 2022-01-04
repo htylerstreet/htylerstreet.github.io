@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "description": "Statista provided data for 2020 or most recent year for obesity prevalence but Statista did not have data for UK so I added that with values from NHS Digital. OurWorldInData provided statistics on percentage of deaths attributed to obesity. Data for GDP also taken from Statista. All three datasets were merged in Stata.",
+
+    "title": {
+    "text": "Obesity Prevalence in Selected European Countries by Gender in 2020",
+    "anchor": "start",
+    "color": "black",
+    "subtitle": ["Including percentage of deaths attributed to obesity in 2017 (most recent year with available data).",
+  "Tooltip includes the GDP for each country in 2020.",    
+  "Sources: NHS Digital, OECD, OurWorldInData, Statista",
+    ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "subtitleColor": "black"
+  },
+
+    "data": {
+      "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/obesity_gdp.csv"
+    },
+
+    "width": 500,
+    "height": 300,
+  
+    "transform": [
+      {"filter": {
+          "field": "country",
+          "oneOf": [
+            "United Kingdom", "Spain", "France", "Netherlands", "Portugal", "Italy", "Poland", "Germany", "Belgium", "Austria", "Denmark"]}
+      }
+    ],
+  
+    "repeat": {"layer": ["Men", "Women"]},
+    "spec": {
+    "mark": {"type": "bar", "point": false, "color": "skyblue"},
+      "encoding": {
+        "x": {
+          "field": "country",
+          "title": null,
+          "type": "nominal",
+          "axis": {"labelAngle": 20}
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": {"repeat": "layer"},
+          "type": "quantitative",
+          "title": "Obesity Prevalence (%)",
+          "axis": {"grid": false}
+        },
+        "color": {"datum": {"repeat": "layer"}, "title": "", "scale":  {"scheme": "yellowgreenblue"}},
+        "xOffset": {"datum": {"repeat": "layer"}},
+        "tooltip":[
+          {"field": "country", "type": "nominal", "title": "Country"},
+          {"field": "Men", "type": "quantitative", "format": ".2f"},
+          {"field": "Women", "type": "quantitative", "format": ".2f"},
+          {"field": "deaths", "type": "quantitative", "title": "Percentage of deaths attributed to obesity", "format": ".2f"},
+          {"field": "gdp", "type": "quantitative", "title": "GDP (Euros, in millions)", "format": ".2f"}
+        ]
+      }
+    },
+    "config": {
+      "mark": {"invalid": null}
+    }
+  }

@@ -1,0 +1,46 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "description": "Map of Europe using topojson file obtained from deldersveld public GitHub repository. Data file for rating of access to contraception from Statista. Another dataset from Statista with GDP for European countries was merged with the contraception data to create one file using Stata. After merging, I had to edit the data in Excel as Statista data had values for the United Kingdom whereas the topojson was split into England, Wales, Scotland and Northern Ireland so I had to edit the data to account for this. Statista did not provide GDP figures for Andorra, Belarus, Bosnia and Herzegovina, Moldova, Russia and Ukraine. Data for these countries was found on Trading Economics. However, unlike Statista where the stats were provided in euros, the currency was dollars. Therefore, I used the average exchange rate in 2020 which is 1 USD = 0.877 EUR, found on exchangerates.org, to convert these to euros.",
+  
+      "title": {
+        "text": "Rating of Access to Contraception in Europe in 2020",
+        "subtitle": ["Based on access to means of contraception, family planning advice and online information about contraception.",
+        "Tooltip includes the GDP for each country in 2020.",
+         "Data sources: Statista, Trading Economics",
+         ""],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"
+      },
+  
+    "width": 500,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json",
+      "format": {"type": "topojson", "feature": "continent_Europe_subunits"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.geounit",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/contraception_gdp1.csv"
+          },
+          "key": "country",
+          "fields": ["rating", "gdp"]
+        }
+      }
+    ],
+    "projection": {"type": "equalEarth"},
+    "mark": "geoshape",
+    "encoding": {
+      "color": {"field": "rating", "title": "Rating (%)", "type": "quantitative", "scale": {"scheme": "yellowgreenblue"}},
+      "tooltip": [
+        {"field": "properties.geounit", "type": "nominal", "title": "Country"},
+        {"field": "rating", "type": "quantitative", "title": "Rating (%)", "format": ".2f"},
+        {"field": "gdp", "type": "quantitative","title": "GDP (in million euros)", "format": ".2f"}
+      ]
+    }
+  }

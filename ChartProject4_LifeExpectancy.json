@@ -1,0 +1,74 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "description": "This graph shows the life expectancy at birth for selected European countries using data from the OECD. Not every country has data available for each year.",
+
+    "title": {
+      "text": "Life expectancy at birth for selected European countries from 1960 to 2020",
+      "subtitle": [
+        "And the percentage increase in life expectancy from 1960 to 2020.",
+        "Source: OECD",
+        ""],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+        "data": {
+          "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/OECDLE2.csv"
+        },   
+  
+    "height": 300,
+    "width": 500,
+
+  "mark": {"type": "bar"},
+  "transform": [{"filter": "datum.year==year"},
+  {"filter": {
+          "field": "country",
+          "oneOf": [
+            "United Kingdom", "Spain", "France", "Netherlands", "Portugal", "Italy", "Poland", "Albania", "Germany", "Belgium", "Austria", "Denmark"]}
+      }
+  ],
+  "params": [
+    {
+      "name": "year",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 1960,
+        "max": 2020,
+        "step": 1,
+        "name": "Select the year:"
+      }
+    }
+  ],
+
+    "encoding": {
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "scale": {"domain": [0, 85]},
+        "title": "Life Expectancy (years)",
+        "axis": {"grid": false}
+      },
+      "x": {
+        "field": "country",
+        "type": "nominal",
+        "title": "",
+        "axis": {"grid": false, "labelAngle": 20},
+        "sort": "-y"
+      },
+      "color": {
+        "field": "increase",
+        "scale": {"scheme": "yellowgreenblue"},
+        "title": ["Percentage increase in life",
+        "expectancy from 1960 to 2020"]
+      },
+      "tooltip": [
+        {"field": "country", "title": "Country"},
+        {"field": "value", "title": "Life expectancy"},
+        {"field": "percentincrease", "title": "Percentage increase", "format": ".2f"}
+      ]
+    }
+    }
