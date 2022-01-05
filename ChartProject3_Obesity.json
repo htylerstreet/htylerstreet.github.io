@@ -6,14 +6,14 @@
     "title": {
     "text": "Obesity Prevalence in Selected European Countries by Gender in 2020",
     "anchor": "start",
-    "color": "black",
+    "color": "darkblue",
     "subtitle": ["Including percentage of deaths attributed to obesity in 2017 (most recent year with available data).",
   "Tooltip includes the GDP for each country in 2020.",    
   "Sources: NHS Digital, OECD, OurWorldInData, Statista",
     ""],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
-    "subtitleColor": "darkblue"
+    "subtitleColor": "black"
   },
 
     "data": {
