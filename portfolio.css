@@ -68,7 +68,7 @@ h1{
     width: 800px;
     background-color: transparent;
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 100px 0px 100px;
 }    
     
 .homework{
@@ -80,7 +80,7 @@ h1{
     border-radius: 5px;
     border-color: transparent;
     padding: 0px 10px 0px 10px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 100px 10px 100px;
 }    
 
 .chart{
@@ -112,58 +112,8 @@ h1{
     border-radius: 5px;
     border-color: #779ECC;
     padding: 0px 10px 0px 10px;
-    margin: 10px 125px 10px 125px;
+    margin: 10px 225px 10px 225px;
   }    
-
-.button1{
-    background-color: white;
-    border: none;
-    padding: 10px 25px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    width: 150px;
-    margin: 10px 0px;
-    font-family: 'Nunito', sans-serif;
-    cursor: pointer;
-    transition: background-color 1s ease;
-}
-
-.button1:hover{
-    background-color: transparent;
-    border-color: transparent;
-}
-
-.button2{
-    background-color: white;
-    border: none;
-    padding: 10px 25px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    width: 150px;
-    margin: 10px 0px;
-    font-family: 'Nunito', sans-serif;
-    cursor: pointer;
-    transition: background-color 1s ease;
-}
-
-.button2:hover{
-    background-color: transparent;
-    border-color: transparent;
-} 
 
 .link{
     color: #FF985A;
