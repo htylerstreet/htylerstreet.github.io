@@ -8,7 +8,7 @@ body{
         #CCE5FF 50%,
         #CCE5FF 100%
         );
-    min-width: 320px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -30,6 +30,7 @@ body{
   font-size: 22px;
   font-family: 'Nunito', sans-serif;
   cursor: pointer;
+  width: 33%;
 }
 
 .topnav a:hover {
