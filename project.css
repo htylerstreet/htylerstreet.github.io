@@ -8,7 +8,7 @@ body{
         #CCE5FF 50%,
         #CCE5FF 100%
         );
-    max-width: 100%;
+    min-width: 320px;
     margin: auto;
 }
 
