@@ -38,8 +38,9 @@ body{
   color: black;
 }
 
+/* original colour #F9F9F9 */
 .topnav a.active {
-  background-color: #9F9F9F;
+  background-color: #4484CE;
   color: white;
 }
 
