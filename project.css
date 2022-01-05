@@ -8,7 +8,7 @@ body{
         #CCE5FF 50%,
         #CCE5FF 100%
         );
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -84,14 +84,14 @@ h3{
     width: 1000px;
     background-color: transparent;
     text-align: center;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px;
 }
     
 .text{
     width: 800px;
     background-color: transparent;
     text-align: center;
-    margin: 5px 100px 0px 100px;
+    margin: 5px 0px;
 }   
 
 .sections{
@@ -102,7 +102,7 @@ h3{
     border-radius: 5px;
     border-color: transparent;
     text-align: center;
-    margin: 10px 100px 0px 100px;
+    margin: 10px 0px;
 }
 
 .chart1{
@@ -112,7 +112,7 @@ h3{
     border-style: solid;
     border-radius: 5px;
     border-color: #4484CE;
-    margin: 0px 125px 20px 125px;
+    margin: 0px;
 }
 
 .chart2{
@@ -122,7 +122,7 @@ h3{
     border-style: solid;
     border-radius: 5px;
     border-color: #4484CE;
-    margin: 0px 175px 20px 175px;
+    margin: 0px;
 }
 
 .png{
@@ -132,57 +132,7 @@ h3{
     border-style: solid;
     border-radius: 5px;
     border-color: #4484CE;
-    margin: 0px 250px 20px 250px;
-}
-
-.button1{
-    background-color: white;
-    border: none;
-    padding: 10px 25px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    width: 150px;
-    margin: 10px 0px;
-    font-family: 'Nunito', sans-serif;
-    cursor: pointer;
-    transition: background-color 1s ease;
-}
-
-.button1:hover{
-    background-color: transparent;
-    border-color: transparent;
-}
-
-.button2{
-    background-color: white;
-    border: none;
-    padding: 10px 25px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    width: 150px;
-    margin: 10px 0px;
-    font-family: 'Nunito', sans-serif;
-    cursor: pointer;
-    transition: background-color 1s ease;
-}
-
-.button2:hover{
-    background-color: transparent;
-    border-color: transparent;
+    margin: 0px;
 }
 
 .smallbutton{
