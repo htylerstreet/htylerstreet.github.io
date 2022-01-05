@@ -57,7 +57,12 @@ body{
 .container{
     background-color: transparent;
     text-align: center;
-}     
+} 
+
+.containergraph{
+    background-color: transparent;
+    justify-content: center;
+}
 
 p{
     color:rgb(17, 17, 17);
