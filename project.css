@@ -1,4 +1,4 @@
-/* This is my first proper css file */
+/* Project css */
 
 body{
     background: linear-gradient(
@@ -81,7 +81,6 @@ h3{
 }
 
 .title{
-    width: 1000px;
     background-color: transparent;
     text-align: center;
     margin: 20px 0px;
@@ -91,7 +90,7 @@ h3{
     width: 800px;
     background-color: transparent;
     text-align: center;
-    margin: 5px 0px;
+    margin: 0px 100px;
 }   
 
 .sections{
@@ -102,7 +101,7 @@ h3{
     border-radius: 5px;
     border-color: transparent;
     text-align: center;
-    margin: 10px 0px;
+    margin: 10px 100px;
 }
 
 .chart1{
@@ -133,6 +132,36 @@ h3{
     border-radius: 5px;
     border-color: #4484CE;
     margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+.chart1{
+    background-color: white;
+    width: 550px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #4484CE;
+    margin: 0px;
+}
+.chart2{
+    background-color: white;
+    width: 450px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #4484CE;
+    margin: 0px;
+}
+.png{
+    background-color: white;
+    width: 450px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #4484CE;
+    margin: 0px;
+}
 }
 
 .smallbutton{
