@@ -118,6 +118,16 @@ h3{
     margin: 0px 175px 0px 175px;
 }
 
+.chart3{
+    background-color: white;
+    width: 600x;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #4484CE;
+    margin: 0px 200px 0px 200px;
+}
+
 .png{
     background-color: white;
     width: 500px;
