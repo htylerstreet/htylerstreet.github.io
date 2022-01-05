@@ -8,7 +8,7 @@ body{
         #CCE5FF 50%,
         #CCE5FF 100%
         );
-    min-width: 320px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -116,7 +116,6 @@ h3{
     border-style: solid;
     border-radius: 5px;
     border-color: #4484CE;
-    margin: 0px;
 }
 
 .chart2{
@@ -126,7 +125,6 @@ h3{
     border-style: solid;
     border-radius: 5px;
     border-color: #4484CE;
-    margin: 0px;
 }
 
 .png{
@@ -136,37 +134,6 @@ h3{
     border-style: solid;
     border-radius: 5px;
     border-color: #4484CE;
-    margin: 0px;
-}
-
-@media screen and (max-width: 600px) {
-.chart1{
-    background-color: white;
-    width: 550px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #4484CE;
-    margin: 0px;
-}
-.chart2{
-    background-color: white;
-    width: 450px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #4484CE;
-    margin: 0px;
-}
-.png{
-    background-color: white;
-    width: 450px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #4484CE;
-    margin: 0px;
-}
 }
 
 .smallbutton{
@@ -197,6 +164,6 @@ hr{
     margin-bottom: 10px;
     border: transparent;
     color: black;
-    width: 1000px;
+    width: 100%;
     border-top: 1px solid black;
 }
