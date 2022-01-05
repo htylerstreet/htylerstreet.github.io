@@ -1,60 +1,48 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-        "text": "New Covid Cases as percentage of total new cases in the UK",
-        "subtitle":"Comparing 3 different cities in the North",
-        "subtitleFontStyle":"italic",
-        "subtitleFontSize":10,
-        "anchor": "start",
-        "color": "black"
-      },
-      
-       "data": {
-        "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/CovidCasesNorth.csv",
-        "format": {"type": "csv"}
-      },
-    
-       "transform":[
-          
-          {"filter": {
-            "field": "areaName", 
-            "oneOf": ["Manchester", "Leeds", "Liverpool"]}
-            }
-    
-    
-        ],
-      
-      
-      "height": 300,
-      "width": 300,
-       
-      "mark": {"type": "line", "point": false},
-     
-      "encoding": {
-    
-        "x": {
-          "field": "date",
-          "type": "temporal",
-          "title": null,
-          "axis": {"grid": false}
-        },
-    
-        "y": {
-          "field": "newCasesAsPercentageOfUK",
-          "type": "quantitative",
-          "scale": {"domain": [0,5.5]},
-          "title": null,
-          "axis": {"grid": false}
-        },
-    
-        "color": {
-          "field": "areaName",
-          "type": "nominal",
-          "scale": {"scheme": "category20"},
-          "title": "",
-          "legend": {
-            "orient": "top-right", 
-            "fillColor": "#FcFdFd"}
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "New Covid Cases as percentage of total new cases in the UK",
+    "subtitle": "Comparing 3 different cities in the North. Data source: Government Covid API (csv)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/CovidCasesNorth1.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "areaName",
+        "oneOf": ["Manchester", "Leeds", "Liverpool"]
       }
+    }
+  ],
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "line", "point": false},
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "newCasesAsPercentageOfUK",
+      "type": "quantitative",
+      "scale": {"domain": [0, 17]},
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "areaName",
+      "type": "nominal",
+      "scale": {"scheme": "category20"},
+      "title": "",
+      "legend": {"orient": "top-right", "fillColor": "#FcFdFd"}
+    }
   }
+}
