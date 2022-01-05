@@ -8,7 +8,7 @@ body{
         #FFFFFF 50%,
         #FFFFFF 100%
         );
-    max-width: 500px;
+    max-width: 100%;
     margin: auto;
 } 
 
@@ -61,6 +61,7 @@ body{
     display: block;
     text-align: left;
   }
+}
 
 h2{
     color: black;
