@@ -8,7 +8,7 @@ body{
         #FFFFFF 50%,
         #FFFFFF 100%
         );
-    max-width: 100%;
+    max-width: 1000px;
     margin: auto;
 } 
 
@@ -17,6 +17,7 @@ body{
 .topnav {
   overflow: hidden;
   background-color: #B7B6B6;
+  width: 1000px;
 }
 
 .topnav a {
@@ -24,11 +25,12 @@ body{
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 40px;
+  padding: 20px 0px;
   text-decoration: none;
   font-size: 22px;
   font-family: 'Nunito', sans-serif;
   cursor: pointer;
+  width: 333.3333px;
 }
 
 .topnav a:hover {
