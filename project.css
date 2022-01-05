@@ -12,6 +12,48 @@ body{
     margin: auto;
 }
 
+/* Code for the navigation bar found on W3Schools */
+
+.topnav {
+  overflow: hidden;
+  background-color: #B7B6B6;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Nunito', sans-serif;
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #9F9F9F;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+}
+
 .container{
     background-color: transparent;
     text-align: center;
