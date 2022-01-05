@@ -1,54 +1,54 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "This chart shows new covid cases and deaths in the US using data from the Covid Tracking Project API. Data was only collected from the start of the pandemic up until March 2021.",
-    "title": {
-      "text": "GDP in Europe and Infant Mortality in Europe from 1960 to 2020",
-      "subtitle": ["GDP is for the European countries in the OECD, in millions of dollars",
-      "Infant mortality rate per 1,000 live births",
-      "Data Sources: Statista, OECD",
-      ""],
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "start",
-      "color": "black"
-    },
-    "data": {
-      "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/mortality_gdp.csv"
-    },
-    "height": 300,
-    "width": 400,
-    "encoding": {
-      "x": {
-        "field": "year",
-        "type": "temporal",
-        "title": null,
-        "axis": {"grid": false}
-      }
-    },
-    "layer": [
-      {
-        "mark": {"type": "line", "point": false, "color": "orange"},
-        "encoding": {
-          "y": {
-            "field": "value",
-            "type": "quantitative",
-            "scale": {"domain": ["0", "25000000"]},
-            "title": "GDP",
-            "axis": {"titleColor": "orange"}
-          }
-        }
-      },
-      {
-        "mark": {"type": "line", "point": false, "color": "darkblue"},
-        "encoding": {
-          "y": {
-            "field": "mortality",
-            "type": "quantitative",
-            "title": "Infant Mortality",
-            "axis": {"titleColor": "darkblue"}
-          }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "This chart shows new covid cases and deaths in the US using data from the Covid Tracking Project API. Data was only collected from the start of the pandemic up until March 2021.",
+  "title": {
+    "text": "GDP in Europe and Infant Mortality in Europe from 1960 to 2020",
+    "subtitle": ["GDP is for the European countries in the OECD, in millions of US dollars.",
+    "Infant mortality rate per 1,000 live births.",
+    "Data Sources: Statista, OECD",
+    ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "darkblue"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/mortality_gdp.csv"
+  },
+  "height": 300,
+  "width": 400,
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "point": false, "color": "lightgreen"},
+      "encoding": {
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {"domain": ["0", "25000000"]},
+          "title": "GDP (USD, millions)",
+          "axis": {"titleColor": "lightgreen", "labelFontSize": 10, "titleFontSize": 13}
         }
       }
-    ],
-    "resolve": {"scale": {"y": "independent"}}
-  }
+    },
+    {
+      "mark": {"type": "line", "strokeDash":[6,2], "point": false, "color": "skyblue"},
+      "encoding": {
+        "y": {
+          "field": "mortality",
+          "type": "quantitative",
+          "title": "Infant Mortality",
+          "axis": {"titleColor": "skyblue", "titleFontSize": 13}
+        }
+      }
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}}
+}
