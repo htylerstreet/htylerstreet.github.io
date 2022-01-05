@@ -17,7 +17,7 @@ body{
 .topnav {
   overflow: hidden;
   background-color: #B7B6B6;
-  width: 100%;
+  width: 1000px;
 }
 
 .topnav a {
@@ -30,7 +30,7 @@ body{
   font-size: 22px;
   font-family: 'Nunito', sans-serif;
   cursor: pointer;
-  width: 33%;
+  width: 333.3333px;
 }
 
 .topnav a:hover {
