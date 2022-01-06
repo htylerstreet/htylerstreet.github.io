@@ -1,0 +1,76 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "description": "Data was not available for each of the eleven countries I selected for my project and for the countries I was able to obtain data there are some gaps for specific years and treatments.",
+
+    "title": {
+    "text": "Wait times for specialist treatment from 2010 to 2020",
+    "anchor": "start",
+    "color": "darkblue",
+    "subtitle": ["From specialist assessment.", "In mean days.",   
+        "Source: OECD",
+          ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "subtitleColor": "black"
+  },
+
+    "data": {
+      "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/wait_times_years.csv"
+    },
+
+      "transform": [
+    {"filter": "datum.year==year"}
+      ],
+
+        "params": [
+    {
+      "name": "year",
+      "value": 2018,
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2020,
+        "step": 1,
+        "name": "Select the year:"
+      }
+    }
+  ],
+
+    "width": 500,
+    "height": 300,
+  
+    "repeat": {"layer": ["Cataract surgery", "Coronary bypass", "Hip replacement", "Hysterectomy", "Knee replacement", "Prostatectomy"]},
+    "spec": {
+    "mark": {"type": "bar", "point": false, "color": "skyblue"},
+      "encoding": {
+        "x": {
+          "field": "country",
+          "title": null,
+          "type": "nominal",
+          "axis": {"labelAngle": 20}
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": {"repeat": "layer"},
+          "type": "quantitative",
+          "title": "Mean days",
+          "axis": {"grid": false}
+        },
+        "color": {"datum": {"repeat": "layer"}, "title": "Specialist Treatment", "scale":  {"scheme": "yellowgreenblue"}},
+        "xOffset": {"datum": {"repeat": "layer"}},
+        "tooltip":[
+          {"field": "country", "type": "nominal", "title": "Country"},
+          {"field": "Cataract surgery"},
+          {"field": "Coronary bypass"},
+          {"field": "Hip replacement"},
+          {"field": "Hysterectomy"},
+          {"field": "Knee replacement"},
+          {"field": "Prostatectomy"}
+        ]
+      }
+    },
+    "config": {
+      "mark": {"invalid": null}
+    }
+  }
