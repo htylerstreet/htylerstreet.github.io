@@ -80,23 +80,11 @@ h3{
     text-align: center;
     margin: 20px 0px;
 }
-    
-.text{
-    width: 800px;
-    background-color: transparent;
-    text-align: center;
-    margin: 0px 100px;
-}   
 
-.sections{
-    width: 800px;
+.bigtitle{
     background-color: transparent;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: transparent;
     text-align: center;
-    margin: 10px 100px;
+    margin: 20px 0px 40px 0px;
 }
 
 .chart1{
@@ -147,7 +135,7 @@ h3{
     text-align: center;
     text-decoration: none;
     font-size: 15px;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     border-color: #4484CE;
     border-radius: 5px;
