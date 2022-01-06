@@ -114,7 +114,7 @@
     <div class="containergraph">
     <div class="chart3" id="chart5">
     <script>
-      var myChart4 = "ChartProject5_InfantMortality.json";
+      var myChart5 = "ChartProject5_InfantMortality.json";
       vegaEmbed('#chart5', myChart5);
     </script>
   </div>
@@ -151,7 +151,7 @@
   
   <!--Data. Number of words: 264-->
   <div class="title">
-  <p>I obtained data from various sources. Data from the World Health Organisation (chart 1) and FRED (chart 4) was downloaded from their respective API links using a loop in Google Colab.</p>
+  <p>I obtained data from various sources. Data from the World Health Organisation (chart 1) and FRED (chart 5) was downloaded from their respective API links using a loop in Google Colab.</p>
     <p>Other data sources include Statista, OECD Statistics and Our World in Data, where I downloaded the data in csv files. Some files did not include values for all the necessary countries, hence a few minor data points, to fill in missing values, were included from the following data sources: NHS Digital and Trading Economics. These were added to the csv files manually.</p>
     <p>Although the project generally focusses on eleven countries, for the map chart, data for as many European countries as possible was incorporated to achieve a better replica of the geography. Similarly, for the regression a larger number of data points were included to increase the accuracy.</p>
     <p>To produce charts which automatically update use of APIs is required. However, I could not find many APIs for my topic. The ones I did find where from the ONS for the UK GDP. This could have been incorporated in a graph solely regarding the UK, but I wanted the comparisons to run throughout my project. And the Covid-19 API, which links to health. However, I chose not to include Coronavirus in my project as I believe it does not necessarily say how effective a country’s health care system is but more how prepared the government was for a pandemic. Although APIs are beneficial, an advantage of data uploaded to GitHub is that it can never go down, which is a possible concern with APIs.</p>
@@ -175,7 +175,7 @@
   <p>One issue which came to light was that some of the data downloaded from the WHO API was in a format that Vega Lite could not read, as the value had standard deviations in brackets. Unfortunately, I was not able to wrangle these in Python, hence I looked for other data.</p>
     <p>Another issue was that in the topojson the UK was split into England, Northern Ireland, Scotland and Wales, while my data provided figures for the UK. Therefore, I manually adjusted the data to match the topojson.</p>
     <p>Preparation work to get my data into the right format involved merging datasets from different sources. I did this in Stata to ensure that data points for each country would join up smoothly and to avoid any mismatch errors that could occur when doing this manually in Excel. Stata was also useful in dropping unneeded variables.</p>
-    <p>Excel was, however, used when performing calculations such as for chart 5 to compute the percentage increase in life expectancy over the period for each country and for chart 3 when calculating the average obesity prevalence in the whole population.</p>
+    <p>Excel was, however, used when performing calculations such as for chart 6 to compute the percentage increase in life expectancy over the period for each country and for chart 4 when calculating the average obesity prevalence in the whole population.</p>
     <p>Google Colab was used to first convert data from two csv files into the right format to run a regression and then to perform the regression.</p>
   </div>
   
