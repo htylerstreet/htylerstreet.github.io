@@ -48,11 +48,11 @@
   
 <hr>
   
-  <!--Aims. Number of words: 110-->
+  <!--Aims. Number of words: 106-->
   <div class="title">
     <p>Specifically, comparing the health care system in the UK to selected European countries to decipher whether a larger GDP predicts a better health care system.</p>
-    <p>There are different ways of measuring how good a health care system is. Obvious factors to consider include mortality rates, waiting times, accessibility and affordability. I will integrate the first two in my project alongside various health indicators. I have chosen to include life expectancy, obesity rates and access to contraception.</p>
-    <p>For most of the charts the same eleven countries are used to maintain consistency. These countries have been selected due to  their differing characteristics such as population size, GDP and geographical location within Europe.</p>
+    <p>There are different ways of measuring how effective a health care system is. Factors to consider include mortality rates, waiting times, accessibility and affordability. I will integrate the first two in my project alongside various health indicators. I have included life expectancy, obesity rates and access to contraception.</p>
+    <p>For most of the charts the same eleven countries are used to maintain consistency. These countries were selected due to their differing characteristics such as population size, GDP and geographical location in Europe.</p>
   </div>
   
 <hr>  
@@ -67,66 +67,79 @@
       vegaEmbed('#chart1', myChart1);
     </script>
   </div>
-                                                
-  <div class="title">
-    <h3>chart 2 - access to contraception</h3>
+  
+    <div class="title">
+    <h3>chart 2 - waiting times</h3>
   </div>
       
   <div class="containergraph">
-    <div class="chart2" id="chart2">
+    <div class="chart1" id="chart2">
     <script>
-      var myChart2 = "ChartProject2_ContraceptionMap.json";
+      var myChart2 = "ChartProject2_WaitTimes.json";
       vegaEmbed('#chart2', myChart2);
+    </script>
+  </div>
+  </div>
+                                                
+  <div class="title">
+    <h3>chart 3 - access to contraception</h3>
+  </div>
+      
+  <div class="containergraph">
+    <div class="chart2" id="chart3">
+    <script>
+      var myChart3 = "ChartProject3_ContraceptionMap.json";
+      vegaEmbed('#chart3', myChart3);
     </script>
   </div>
   </div>
   
     <div class="title">
-    <h3>chart 3 - obesity prevalence</h3>
+    <h3>chart 4 - obesity prevalence</h3>
   </div>
      
   <div class="containergraph">
-    <div class="chart2" id="chart3">
+    <div class="chart2" id="chart4">
     <script>
-      var myChart3 = "ChartProject3_Obesity.json";
-      vegaEmbed('#chart3', myChart3);
+      var myChart4 = "ChartProject4_Obesity.json";
+      vegaEmbed('#chart4', myChart4);
     </script>
   </div>    
   </div>
   
   <div class="title">
-    <h3>chart 4 - infant mortality</h3>
+    <h3>chart 5 - infant mortality</h3>
   </div>
   
     <div class="containergraph">
-    <div class="chart3" id="chart4">
+    <div class="chart3" id="chart5">
     <script>
-      var myChart4 = "ChartProject4_InfantMortality.json";
-      vegaEmbed('#chart4', myChart4);
+      var myChart4 = "ChartProject5_InfantMortality.json";
+      vegaEmbed('#chart5', myChart5);
     </script>
   </div>
   </div>
   
     <div class="title">
-    <h3>chart 5 - life expectancy</h3>
+    <h3>chart 6 - life expectancy</h3>
   </div>
          
   <div class="containergraph">
-    <div class="chart1" id="chart5">
+    <div class="chart1" id="chart6">
     <script>
-      var myChart5 = "ChartProject5_LifeExpectancy.json";
-      vegaEmbed('#chart5', myChart5);
+      var myChart6 = "ChartProject6_LifeExpectancy.json";
+      vegaEmbed('#chart6', myChart6);
     </script>
   </div>
   </div>
                                                         
     <div class="title">
-    <h3>chart 6 - life expectancy and gdp</h3>
+    <h3>chart 7 - life expectancy and gdp</h3>
   </div>
   
   <div class="containergraph">
-  <div class="png" id="chart6">
-    <img src = "ChartProject6_Regression.png" />
+  <div class="png" id="chart7">
+    <img src = "ChartProject7_Regression.png" />
   </div>
   </div>
                                              
@@ -136,14 +149,17 @@
   
 <hr>
   
-  <!--Data. Number of words: -->
+  <!--Data. Number of words: 264-->
   <div class="title">
-  <p>Obtained data from different sources such as...</p>
+  <p>I obtained data from various sources. Data from the World Health Organisation (chart 1) and FRED (chart 4) was downloaded from their respective API links using a loop in Google Colab.</p>
+    <p>Other data sources include Statista, OECD Statistics and Our World in Data, where I downloaded the data in csv files. Some files did not include values for all the necessary countries, hence a few minor data points, to fill in missing values, were included from the following data sources: NHS Digital and Trading Economics. These were added to the csv files manually.</p>
+    <p>Although the project generally focusses on eleven countries, for the map chart, data for as many European countries as possible was incorporated to achieve a better replica of the geography. Similarly, for the regression a larger number of data points were included to increase the accuracy.</p>
+    <p>To produce charts which automatically update use of APIs is required. However, I could not find many APIs for my topic. The ones I did find where from the ONS for the UK GDP. This could have been incorporated in a graph solely regarding the UK, but I wanted the comparisons to run throughout my project. And the Covid-19 API, which links to health. However, I chose not to include Coronavirus in my project as I believe it does not necessarily say how effective a country’s health care system is but more how prepared the government was for a pandemic. Although APIs are beneficial, an advantage of data uploaded to GitHub is that it can never go down, which is a possible concern with APIs.</p>
   </div>
   
   <div class="buttoncontainer">
     <a class="smallbutton" href="https://colab.research.google.com/drive/1O4yvQRECQmfxlUW-6_TWRpiA7vAJIobH?usp=sharing">Colab 1</a>
-    <a class="smallbutton" href="https://colab.research.google.com/drive/1ezNcgYghW0PznRSAh9N9Tx3g1kdAddaI?usp=sharing">Colab 4</a>
+    <a class="smallbutton" href="https://colab.research.google.com/drive/1ezNcgYghW0PznRSAh9N9Tx3g1kdAddaI?usp=sharing">Colab 5</a>
   </div>
   
 <hr>
@@ -154,15 +170,20 @@
   
  <hr>
   
-  <!--Data Cleaning. Number of words: -->
+  <!--Data Cleaning. Number of words: 209-->
   <div class="title">
-  <p>Merging datasets in Stata, regression in Google Colab, some calculations in Excel...</p>
+  <p>One issue which came to light was that some of the data downloaded from the WHO API was in a format that Vega Lite could not read, as the value had standard deviations in brackets. Unfortunately, I was not able to wrangle these in Python, hence I looked for other data.</p>
+    <p>Another issue was that in the topojson the UK was split into England, Northern Ireland, Scotland and Wales, while my data provided figures for the UK. Therefore, I manually adjusted the data to match the topojson.</p>
+    <p>Preparation work to get my data into the right format involved merging datasets from different sources. I did this in Stata to ensure that data points for each country would join up smoothly and to avoid any mismatch errors that could occur when doing this manually in Excel. Stata was also useful in dropping unneeded variables.</p>
+    <p>Excel was, however, used when performing calculations such as for chart 5 to compute the percentage increase in life expectancy over the period for each country and for chart 3 when calculating the average obesity prevalence in the whole population.</p>
+    <p>Google Colab was used to first convert data from two csv files into the right format to run a regression and then to perform the regression.</p>
   </div>
   
   <div class="buttoncontainer">
-    <a class="smallbutton" href="https://github.com/htylerstreet/htylerstreet.github.io/blob/main/contraception.gdp.do">Stata 2</a>
-    <a class="smallbutton" href="https://github.com/htylerstreet/htylerstreet.github.io/blob/main/obesity.gdp.do">Stata 3</a>
-    <a class="smallbutton" href="https://colab.research.google.com/drive/1MWpRzPJ_smkJclgPceoEeLRZFvBMJESU?usp=sharing">Colab 6</a>
+    <a class="smallbutton" href="https://github.com/htylerstreet/htylerstreet.github.io/blob/main/contraception.gdp.do">Stata 3</a>
+    <a class="smallbutton" href="https://github.com/htylerstreet/htylerstreet.github.io/blob/main/obesity.gdp.do">Stata 4</a>
+    <a class="smallbutton" href="https://colab.research.google.com/drive/11L9OJP_2oKfp8td1LNUIYAuhJyrRe3dk?usp=sharing">Colab 3</a>
+    <a class="smallbutton" href="https://colab.research.google.com/drive/1MWpRzPJ_smkJclgPceoEeLRZFvBMJESU?usp=sharing">Colab 7</a>
   </div>
   
 <hr>
@@ -173,11 +194,11 @@
   
  <hr>
   
-  <!--Conclusions. Number of words: 229-->
+  <!--Conclusions. Number of words: 221-->
   <div class="title">
-  <p>To conclude, countries with higher GDP’s, such as the UK, have higher ratings of access to contraception, higher life expectancies at birth but also a larger prevalence of obesity in the population. The former two would suggest that the higher GDP indicates a better health system, while the latter, the opposite.</p>
-    <p>Most of the eleven countries’ governments have consistently spent between 10 and 16 percent of their total expenditure on health. Poland has always spent less than this. It also has the lowest life expectancy out of the countries in 2020 (and throughout most of the years graphed). It also has a low rating of access to contraception: 35.1%. Whereas Germany spends more on health and has a higher life expectancy and better access to contraception. Germany also has a higher GDP. Comparing these two countries suggests that a higher GDP does in fact result in better health care. However, this cannot be concluded merely by comparing two countries.</p>
-    <p>Overall, without increasing the size of this project to include more countries, or even undertaking it on a global scale, it is hard to determine whether GDP affects healthcare. However, the data I used does indicate that countries with higher GDPs (in Europe), have higher life expectancies. Furthermore, as GDP has increased in Europe since 1960, infant mortality rates have decreased which is a positive indication for health care quality.</p>
+  <p>To conclude, countries with higher GDP’s, such as the UK, have higher ratings of access to contraception, longer life expectancies at birth but also larger rates of obesity in the population. The former two would suggest that the higher GDP indicates a better health system, while the latter, the opposite.</p>
+    <p>Most of the eleven countries’ governments have consistently spent between 10 and 16 percent of their total expenditure on health. Poland always spends less than this. It also has the lowest life expectancy out of the countries, a low rating of access to contraception: 35.1%, and longer waiting times for specialist treatment. Whereas Germany spends more on health, has a higher life expectancy and better access to contraception. Germany also has a higher GDP. Comparing these two countries suggests that a higher GDP does in fact result in better health care. However, this cannot be concluded merely by comparing two countries.</p>
+    <p>Overall, without increasing the size of this project to include more countries, or even undertaking it on a global scale, it is hard to determine whether GDP affects healthcare. However, the data I used does indicate that countries with higher GDPs (in Europe), have higher life expectancies. Furthermore, as GDP has increased in Europe since 1960, infant mortality rates have decreased. Both these are positive indications for health care quality.</p>
   </div>
   
 <hr>
