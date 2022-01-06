@@ -161,6 +161,14 @@ h3{
     background-color: transparent;
     border-color: transparent;
 }
+
+.buttoncontainer{
+    text-align: center;
+    align-items: flex-start;
+    display: inline-block;
+    width: 200px;
+    margin: 0px 400px 0px 400px;
+}    
     
 hr{
     margin-top: 10px;
