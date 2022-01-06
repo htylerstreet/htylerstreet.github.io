@@ -87,6 +87,8 @@ h3{
     margin: 20px 0px 40px 0px;
 }
 
+/* Different size chart divs for charts of different widths */
+
 .chart1{
     background-color: white;
     width: 750px;
@@ -158,7 +160,9 @@ h3{
     width: 1000px;
     margin: 0px 0px 20px 0px;
 }    
-    
+
+/* Code for horizontal black line */
+
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
