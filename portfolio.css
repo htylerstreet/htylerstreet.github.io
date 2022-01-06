@@ -117,6 +117,7 @@ h1{
 
 .link{
     color: #FF985A;
+    text-decoration: none;
 }
 
 .link:hover{
