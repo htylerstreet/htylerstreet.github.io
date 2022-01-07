@@ -117,5 +117,11 @@ p{
 } 
 
 .footer{
-    height: 100px;
+    height: 50px;
 }
+
+.footer-index{
+    color: black;
+    background-color: transparent;
+    padding: 10px 0px;
+}    
