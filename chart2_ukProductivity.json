@@ -9,7 +9,7 @@
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
-    "color": "black"
+    "color": "darkred"
   },
   
   "data": {
@@ -20,7 +20,7 @@
     "type": "line",
     "point": false,
     "interpolate": "monotone",
-    "color": "skyblue"
+    "color": "darkorange"
   },
   "encoding": {
     "x": {
