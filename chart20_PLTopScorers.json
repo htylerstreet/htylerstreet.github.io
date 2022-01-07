@@ -33,7 +33,7 @@
   ],
   "height": 250,
   "width": 250,
-  "mark": "circle",
+  "mark": {"type": "circle", "size": 200},
   "encoding": {
     "x": {
       "field": "penalties",
