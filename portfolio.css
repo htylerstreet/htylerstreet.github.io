@@ -169,13 +169,3 @@ hr.dotted{
     width: 1000px;
     border-top: 4px dotted black;
 }
-
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: transparent;
-   color: white;
-   text-align: center;
-} 
