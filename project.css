@@ -171,3 +171,12 @@ hr{
     width: 1000px;
     border-top: 1px solid black;
 }
+
+hr.dotted{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: transparent;
+    color: black;
+    width: 1000px;
+    border-top: 4px dotted black;
+}
