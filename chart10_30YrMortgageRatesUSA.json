@@ -7,7 +7,7 @@
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
-      "color": "black"
+      "color": "darkred"
     },
     "data": {
       "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/data_FRED-MORTGAGE30US.json",
@@ -18,7 +18,7 @@
   
      "height": 300,
     "width": 300,
-    "mark": {"type": "line", "point": false, "color": "skyblue"},
+    "mark": {"type": "line", "point": false, "color": "darkorange"},
     "encoding": {
       "x": {
         "field": "date",
