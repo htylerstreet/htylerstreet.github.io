@@ -45,7 +45,7 @@ body{
 
 @media screen and (max-width: 600px) {
   .topnav a {
-    float: left;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -53,6 +53,20 @@ body{
   text-decoration: none;
   font-size: 15px;
   font-family: 'Nunito', sans-serif;
+  width: 200px;
+}
+    
+ @media screen and (max-width: 320px) {
+  .topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 0px;
+  text-decoration: none;
+  font-size: 10
+  font-family: 'Nunito', sans-serif;
+  width: 106.6667px;
 }
 }
 
