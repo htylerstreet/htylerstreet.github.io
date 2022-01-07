@@ -6,7 +6,7 @@
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
-    "color": "black",
+    "color": "darkred",
     "subtitleColor": "black"
   },
 
@@ -20,7 +20,7 @@
     "type": "line",
     "point": false,
     "interpolate": "linear",
-    "color": "skyblue"
+    "color": "darkorange"
   },
   "transform": [
     {"calculate": "timeParse(datum.DATE, '%d/%m/%Y')", "as": "date"},
