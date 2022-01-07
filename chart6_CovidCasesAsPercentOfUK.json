@@ -6,7 +6,7 @@
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
-    "color": "black"
+    "color": "darkred"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/CovidCasesNorth1.csv",
@@ -40,7 +40,7 @@
     "color": {
       "field": "areaName",
       "type": "nominal",
-      "scale": {"scheme": "category20"},
+      "scale": {"scheme": "yelloworangered"},
       "title": "",
       "legend": {"orient": "top-right", "fillColor": "#FcFdFd"}
     }
