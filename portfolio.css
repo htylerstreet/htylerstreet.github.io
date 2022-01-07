@@ -101,19 +101,7 @@ h1{
     border-radius: 5px;
     border-color: #FFB347;
     margin: 0px 0px 20px 50px;
-}
-
-.grid {
-    width: 550px;
-    text-align: center;
-    background-color: white;
-    border-width: 3.5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #779ECC;
-    padding: 0px 10px 0px 10px;
-    margin: 10px 225px 10px 225px;
-  }    
+}   
 
 .link{
     color: #FF985A;
@@ -122,4 +110,15 @@ h1{
 
 .link:hover{
     color: #FFB347;
+}
+
+/* Code for horizontal black line */
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: transparent;
+    color: black;
+    width: 1000px;
+    border-top: 1px solid black;
 }
