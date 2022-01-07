@@ -77,4 +77,36 @@ h1{
     background-color: transparent;
     text-align: center;
     margin: 10px 0px;
-}  
+} 
+
+.smallbutton{
+    background-color: white;
+    border: none;
+    padding: 5px 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #B7B6B6;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px 10px 20px 10px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.smallbutton:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.buttoncontainer{
+    text-align: center;
+    align-items: flex-start;
+    display: inline-block;
+    width: 1000px;
+    margin: 0px 0px 20px 0px;
+} 
