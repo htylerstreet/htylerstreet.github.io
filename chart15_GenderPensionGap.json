@@ -6,19 +6,32 @@
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
-    "color": "black"
+    "color": "darkred"
   },
-"data": {"url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/gender_pension_gap.csv"},
-
+  "data": {
+    "url": "https://raw.githubusercontent.com/htylerstreet/htylerstreet.github.io/main/gender_pension_gap.csv"
+  },
   "height": 300,
   "width": 300,
-  "mark": {"type": "bar", "point": false, "color": "skyblue"},
+  "mark": {"type": "bar", "point": false},
   "encoding": {
     "y": {
       "field": "region",
       "type": "nominal",
       "title": null,
-      "sort": ["Average", "East Midlands", "Greater London", "North East", "North West", "Northern Ireland", "Scotland", "South East", "South West", "Wales", "West Midlands"],
+      "sort": [
+        "Average",
+        "East Midlands",
+        "Greater London",
+        "North East",
+        "North West",
+        "Northern Ireland",
+        "Scotland",
+        "South East",
+        "South West",
+        "Wales",
+        "West Midlands"
+      ],
       "axis": {"grid": false}
     },
     "x": {
@@ -30,8 +43,34 @@
     "color": {
       "field": "region",
       "type": "nominal",
-      "sort": ["Average", "East Midlands", "Greater London", "North East", "North West", "Northern Ireland", "Scotland", "South East", "South West", "Wales", "West Midlands"],
-      "scale": {"range": ["orange", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue", "skyblue"]},
+      "sort": [
+        "Average",
+        "East Midlands",
+        "Greater London",
+        "North East",
+        "North West",
+        "Northern Ireland",
+        "Scotland",
+        "South East",
+        "South West",
+        "Wales",
+        "West Midlands"
+      ],
+      "scale": {
+        "range": [
+          "orange",
+          "lightgrey",
+          "lightgrey",
+          "lightgrey",
+          "lightgrey",
+          "lightgrey",
+          "lightgrey",
+          "lightgrey",
+          "lightgrey",
+          "lightgrey",
+          "lightgrey"
+        ]
+      },
       "legend": null
     }
   }
