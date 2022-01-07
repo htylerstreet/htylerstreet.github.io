@@ -83,6 +83,30 @@ h1{
     margin: 10px 100px 10px 100px;
 }    
 
+.text1{
+    width: 800px;
+    background-color: transparent;
+    text-align: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 100px 0px 100px;
+} 
+
+.text2{
+    width: 800px;
+    background-color: transparent;
+    text-align: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 100px 10px 100px;
+} 
+
 .chart{
     background-color: white;
     width:450px;
@@ -90,7 +114,7 @@ h1{
     border-style: solid;
     border-radius: 5px;
     border-color: #bd3f37;
-    margin: 0px 275px 20px 275px;
+    margin: 20px 275px 20px 275px;
 }
 
 .chart2{
@@ -120,7 +144,7 @@ h1{
     border-style: solid;
     border-radius: 5px;
     border-color: #bd3f37;
-    margin: 0px 225px 20px 225px;
+    margin: 20px 225px 20px 225px;
 }
 
 .chartcontainer{
@@ -128,7 +152,7 @@ h1{
     align-items: flex-start;
     display: inline-block;
     width: 1000px;
-    margin: 0px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .png{
@@ -159,4 +183,13 @@ hr{
     color: black;
     width: 1000px;
     border-top: 1px solid black;
+}
+
+hr1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: transparent;
+    color: black;
+    width: 1000px;
+    border-top: 1px dotted black;
 }
