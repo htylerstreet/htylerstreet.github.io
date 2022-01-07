@@ -81,31 +81,7 @@ h1{
     border-color: transparent;
     padding: 0px 10px 0px 10px;
     margin: 10px 100px 10px 100px;
-}    
-
-.text1{
-    width: 800px;
-    background-color: transparent;
-    text-align: center;
-    border-width: 3.5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: transparent;
-    padding: 0px 10px 0px 10px;
-    margin: 10px 100px 0px 100px;
-} 
-
-.text2{
-    width: 800px;
-    background-color: transparent;
-    text-align: center;
-    border-width: 3.5px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: transparent;
-    padding: 0px 10px 0px 10px;
-    margin: 10px 100px 10px 100px;
-} 
+}     
 
 .chart{
     background-color: white;
@@ -166,7 +142,7 @@ h1{
 }   
 
 .link{
-    color: #FF985A;
+    color: white;
     text-decoration: none;
 }
 
