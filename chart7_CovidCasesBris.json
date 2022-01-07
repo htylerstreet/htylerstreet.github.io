@@ -1,42 +1,41 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A simple bar chart with embedded data.",
-    "title": {
-        "text": "New Covid Cases in Bristol",
-        "subtitle":"From 23rd September to 2nd October",
-        "subtitleFontStyle":"italic",
-        "subtitleFontSize":10,
-        "anchor": "start",
-        "color": "black"
-      },
-    "data": {
-      "values": [
-        {"date": "2021-10-02", "New Cases": 39}, {"date": "2021-10-01", "New Cases": 91}, {"date": "2021-09-30", "New Cases": 128}, {"date": "2021-09-29", "New Cases": 94}, {"date": "2021-09-28", "New Cases": 106}, {"date": "2021-09-27", "New Cases": 119}, {"date": "2021-09-26", "New Cases": 171}, {"date": "2021-09-25", "New Cases": 171}, {"date": "2021-09-24", "New Cases": 198}, {"date": "2021-09-23", "New Cases": 224}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "title": {
+    "text": "New Covid Cases in Bristol",
+    "subtitle": "From 23rd September to 2nd October 2021",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "darkred"
+  },
+  "data": {
+    "values": [
+      {"date": "2021-10-02", "New Cases": 39},
+      {"date": "2021-10-01", "New Cases": 91},
+      {"date": "2021-09-30", "New Cases": 128},
+      {"date": "2021-09-29", "New Cases": 94},
+      {"date": "2021-09-28", "New Cases": 106},
+      {"date": "2021-09-27", "New Cases": 119},
+      {"date": "2021-09-26", "New Cases": 171},
+      {"date": "2021-09-25", "New Cases": 171},
+      {"date": "2021-09-24", "New Cases": 198},
+      {"date": "2021-09-23", "New Cases": 224}
     ]
+  },
+  "height": 290,
+  "width": 300,
+  "mark": {"type": "line", "point": {
+      "filled": true,
+      "fill": "orange"
+    }, "color": "lightgrey"},
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "nominal",
+      "title": null,
+      "axis": {"labelAngle": 20}
     },
-  
-     "height": 300,
-      "width": 300,
-  
-    "mark": {
-      "type": "line",
-      "point": true,
-      "color": "skyblue"
-    },
-    "encoding": {
-      "x": {"field": "date", "type": "nominal", "title": null, "axis": {"labelAngle": 20}},
-      "y": {"field": "New Cases", "type": "quantitative"},
-      "color": {
-          "field": "",
-          "type": "nominal",
-          "scale": {"scheme": "set2"},
-          "title": "",
-          "legend": {
-            "orient": "right", 
-            "define": "Bristol",
-            "fillColor": "#FcFdFd"}
-        }
+    "y": {"field": "New Cases", "type": "quantitative"}
     }
-  }
-  
-  
+}
