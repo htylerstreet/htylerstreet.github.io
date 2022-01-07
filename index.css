@@ -67,6 +67,11 @@ h1{
     font-size: 80px;
 }  
 
+p{
+    color:rgb(17, 17, 17);
+    font-family: 'Nunito', sans-serif;
+}
+
 .container{
     background-color: transparent;
     text-align: center;
