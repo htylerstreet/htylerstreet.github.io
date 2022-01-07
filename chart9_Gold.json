@@ -1,56 +1,43 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
-        "title": {
-        "text": "Weight of Gold Bullion and Coins that the US Treasury held in 2012/13",
-        "subtitle":"In ounces. Data source: Fiscal Data API",
-        "subtitleFontStyle":"italic",
-        "subtitleFontSize":10,
-        "anchor": "start",
-        "color": "black"
-      },
-  
-    "data": {"url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/gold_reserve",
-    "format":{
-      "type": "json",
-      "property": "data"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Weight of Gold Bullion and Coins that the US Treasury held in 2012/13",
+    "subtitle": "In ounces. Data source: Fiscal Data API",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "darkred"
+  },
+  "data": {
+    "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/gold_reserve",
+    "format": {"type": "json", "property": "data"}
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "location_desc",
+        "oneOf": [
+          "Denver, CO",
+          "Fort Knox, KY",
+          "West Point, NY",
+          "Federal Reserve Banks - NY Vault",
+          "Federal Reserve Banks - Display",
+          "All Locations- Coins, blanks, miscellaneous"
+        ]
+      }
     }
+  ],
+  "height": 220,
+  "width": 200,
+  "mark": "circle",
+  "encoding": {
+    "x": {"field": "record_date", "type": "temporal", "title": ""},
+    "y": {"field": "fine_troy_ounce_qty", "type": "quantitative", "title": ""},
+    "color": {
+      "field": "location_desc",
+      "title": "Location",
+      "scale": {"scheme": "darkred"}
     },
-
-    "transform":[
-          
-    {"filter": {
-      "field": "location_desc", 
-      "oneOf": ["Denver, CO", "Fort Knox, KY", "West Point, NY", "Federal Reserve Banks - NY Vault", "Federal Reserve Banks - Display", "All Locations- Coins, blanks, miscellaneous"]}
-   }
-    ],
-
-  "height": 175,
-  "width": 175,
-  
-    "mark": "circle",
-    
-    "encoding": {
-  
-      "x": {
-        "field": "record_date", 
-        "type": "temporal",
-        "title": ""},
-  
-      "y": {
-        "field": "fine_troy_ounce_qty", 
-        "type": "quantitative",
-        "title": ""},
-
-        "color":{
-         "field": "location_desc",
-         "title": "Location",
-         "scale":{"scheme":"turbo"}
-       },
-       "tooltip": [
-      {"field": "form_desc", 
-       "type": "nominal", 
-      "title": "Type"
-      }]  
-    }
+    "tooltip": [{"field": "form_desc", "type": "nominal", "title": "Type"}]
   }
+}
