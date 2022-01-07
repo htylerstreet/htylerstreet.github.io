@@ -112,7 +112,7 @@ p{
     text-align: center;
     align-items: flex-start;
     display: inline-block;
-    width: 1000px;
+    background-color: transparent;
     margin: 50px 0px 20px 0px;
 } 
 
