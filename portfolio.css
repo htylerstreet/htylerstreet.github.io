@@ -65,14 +65,12 @@ h1{
 }  
 
 .title{
-    width: 800px;
     background-color: transparent;
     text-align: center;
-    margin: 10px 100px 0px 100px;
+    margin: 10px 0px 0px 0px;
 }    
     
 .homework{
-    width: 800px;
     background-color: transparent;
     text-align: center;
     border-width: 3.5px;
@@ -80,7 +78,7 @@ h1{
     border-radius: 5px;
     border-color: transparent;
     padding: 0px 10px 0px 10px;
-    margin: 10px 100px 10px 100px;
+    margin: 10px 0px 10px 0px;
 }     
 
 .chart{
