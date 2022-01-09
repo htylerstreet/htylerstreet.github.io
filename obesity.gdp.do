@@ -1,3 +1,5 @@
+*DO file for merging three datasets to create one dataset to create the obesity prevalence graph for my project.
+
 clear all
 set more off
 
